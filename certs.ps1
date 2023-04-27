@@ -1,5 +1,6 @@
 cd C:\temp\certs
 
+certutil -syncWithWU .\
 [array]$certs = $null
 
 $crtfiles = Get-Item *.crt
