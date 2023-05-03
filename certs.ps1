@@ -10,7 +10,7 @@ foreach ($file in $crtfiles) {
     $certs += $certObj
 }
 
-$CertStore = New-Object System.Security.Cryptography.X509Certificates.X509Store -ArgumentList "\\$($env:COMPUTERNAME)\My", "LocalMachine"
+$CertStore = New-Object System.Security.Cryptography.X509Certificates.X509Store -ArgumentList "\\$($env:COMPUTERNAME)\Root", "LocalMachine"
 
 $CertStore.Open('ReadWrite')
 
