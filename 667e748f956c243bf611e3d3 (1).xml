@@ -1,0 +1,2655 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ioc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.mandiant.com/2010/ioc" id="9856db57-4b15-405e-b8ae-cda881cc1daf" last-modified="2024-09-11T14:32:07">
+  <short_description>Malicious Object (IP / Hash / URL)</short_description>
+  <description>Malicious Object (IP / Hash / URL)</description>
+  <keywords/>
+  <authored_by>IndoOpenThreatXchange - Alienvault OTX</authored_by>
+  <authored_date>2024-09-11T14:32:07</authored_date>
+  <links>
+    <link rel="https://otx.alienvault.com/pulse/667e748f956c243bf611e3d3">https://otx.alienvault.com/pulse/667e748f956c243bf611e3d3</link>
+  </links>
+  <definition>
+    <Indicator id="99594f1b-7495-4b2f-9c6b-15c03e36f96c" operator="OR">
+      <IndicatorItem id="533682a8-9f97-451f-93e4-0063345adbcd" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">194.59.31.94</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3291c09f-e397-4837-aa7c-32efc1a9ce66" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">36.138.22.140</Content>
+      </IndicatorItem>
+      <IndicatorItem id="af72dddd-7a62-4d50-9838-9597005cf929" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.148.120.106</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1be25378-4067-4f5d-9f4f-789158d81caf" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">157.230.127.25</Content>
+      </IndicatorItem>
+      <IndicatorItem id="87aecaeb-54e2-4fb5-bd31-22d55788e8a2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.172.108.89</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a9f621d4-4f4c-4a6e-8989-3a7351477759" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.208.147</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c3f0ec7e-f81b-447b-8175-ff007515306a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">141.98.83.197</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a9d32449-5bf2-47d6-ac32-1f92d5587922" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.17.225</Content>
+      </IndicatorItem>
+      <IndicatorItem id="943a8746-dc3f-4ae6-8de4-adecaad54bda" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.190.67</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d319cba7-cc66-4780-9872-244fa6784101" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.247.38</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f92731c6-38aa-4ffd-977c-2c142a317a0f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.172.100.107</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0944b100-12a8-4a97-98bd-6ba5ca00beb7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.172.108.32</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a118ac62-8c8f-4d27-9cca-4ed06605360f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">183.134.104.146</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0cc34a8d-9599-4fc1-ba0e-99c282c759c6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.244.36.206</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d52c7820-3854-4ccd-a476-6cc2262e2c2e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">207.154.221.204</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0eee8d5d-f50e-422e-8c77-5fee9be6bdec" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">217.160.240.165</Content>
+      </IndicatorItem>
+      <IndicatorItem id="72ba0c44-cfa4-418c-afcb-c1221ffd7eb2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.148.120.99</Content>
+      </IndicatorItem>
+      <IndicatorItem id="79de6383-3bb5-49c3-8706-f06ee65d608c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.206.191</Content>
+      </IndicatorItem>
+      <IndicatorItem id="dfb4dd93-86da-42ff-85f8-608a375c8aa7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.206.83</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8955cf6b-a425-45a2-ace8-42209f57a594" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.65.129</Content>
+      </IndicatorItem>
+      <IndicatorItem id="baeff6ca-506a-4f03-996d-041988384418" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">83.147.52.49</Content>
+      </IndicatorItem>
+      <IndicatorItem id="40c64b3f-e948-4469-9544-d73a16f2639c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">92.118.39.167</Content>
+      </IndicatorItem>
+      <IndicatorItem id="83c5ce92-158c-4a80-b3a7-7dc8843221b7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">198.23.165.253</Content>
+      </IndicatorItem>
+      <IndicatorItem id="15cf7244-21dc-4fff-a478-39497fafdafa" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.209.46</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d48c7629-eda5-4566-9419-34b629c0d3e2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">82.180.144.55</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e1c9c5d6-f94f-451e-881c-6897e3ad1377" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.152.52.145</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6d1084bb-b7ce-45d4-b5fc-3548a9d8eff5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.17.139</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1d6d19d9-e5ea-4b4b-9522-bb19bf142a02" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.22.53</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bbc5ca12-5aaf-4ad7-87ad-56f0ea63a0d2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.194.127</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f7b7d742-3523-40ab-960b-de0420eaf0a4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.84.171</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3c9155e1-a0ce-44f2-b779-0854a89d80e6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">68.183.217.226</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c9624c47-18d8-43f0-a92f-e11c02e81ddc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">68.183.68.79</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5fc5937e-eb5c-4326-8cc7-7ebac73d40e2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.238.181.71</Content>
+      </IndicatorItem>
+      <IndicatorItem id="477fbda0-2bfd-4e77-a6d1-5405b8402509" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.92.242.17</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f2af568b-571d-492f-9b7d-a6d12b4647fe" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">69.49.245.172</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c095f4e7-84ca-4e7b-a808-a2033310c0ab" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.86.86.249</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8ef15173-3ed1-4eef-8f96-7baff7414bbd" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">198.23.165.253</Content>
+      </IndicatorItem>
+      <IndicatorItem id="70025657-69db-414e-a9e8-62f9a147bbd7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.196.9.227</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a16e3d3d-903f-42ce-9cec-50cf2981b970" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">192.210.150.32</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2ded56f9-3a68-4828-8f2d-cb28a69266fd" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">82.180.144.60</Content>
+      </IndicatorItem>
+      <IndicatorItem id="53c46335-bbd1-4993-a941-4769a1ac4437" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">172.245.210.13</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2441d3b4-a1dd-4714-8ea9-7fceb403b1be" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">31.220.1.83</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f2927881-cd3c-4cc6-862c-44f3de6fcf97" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.238.181.71</Content>
+      </IndicatorItem>
+      <IndicatorItem id="87d777c3-6053-4c12-a746-7ebebca31fc5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">92.249.48.197</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0947a0b0-ab47-48ce-8bc4-5a6c5be4ed71" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.85.196</Content>
+      </IndicatorItem>
+      <IndicatorItem id="804a1c96-3e2a-4044-9342-a7d329a2584b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.68.93.72</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3ddb467e-6b1a-492c-8ff6-afc009cefede" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.170.44</Content>
+      </IndicatorItem>
+      <IndicatorItem id="16086584-3db9-46fb-acb7-31aaf45d08f4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.227.111.181</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c918c4f5-2c73-4ec5-96fa-c1533f704987" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">178.128.192.61</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f6ab6d31-2b2c-412c-9df3-5bd17c95dac3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.189.55.111</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b7e8b2ba-785b-43e6-88cc-8f26504388c7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.68.87.76</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e9b87592-3928-4ea0-b31c-c88fb9771130" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">178.128.201.216</Content>
+      </IndicatorItem>
+      <IndicatorItem id="854a0341-8a95-4292-871c-f41683f44224" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">108.174.58.28</Content>
+      </IndicatorItem>
+      <IndicatorItem id="372303f5-29cf-4cd3-9fcd-96913339aa6f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">149.28.106.252</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0ba5db31-4346-4d19-a686-7ba5e95d3f66" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.129.65</Content>
+      </IndicatorItem>
+      <IndicatorItem id="225dba05-ef8a-402e-84cf-3541f19bc533" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.25.154</Content>
+      </IndicatorItem>
+      <IndicatorItem id="25d7e69d-4bd2-4db1-8b36-72071728cc5c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.209.236.227</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6f7e3c92-847a-46d6-8fa4-051206247622" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.203.94.172</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ecde6038-7019-416e-a8e9-7db1730df333" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.172.253</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3881d3b4-ffcf-46c5-98a8-2b924e658db3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.168.55</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9cdcc9f9-2d2b-48fa-8bb9-d86609a2595d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">178.128.199.164</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1999f5fc-0527-4d69-9139-72d0ca2e2098" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.99.2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="45296030-4de8-4098-8c24-650188025319" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.227.115.223</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0a8d0d9e-63ba-40ab-a13b-3a27e600223a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.227.117.195</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9829c638-e804-4c04-9917-fbe2c2151516" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.227.126.227</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eb931118-8666-42a4-83e6-e8ac52108787" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">82.180.144.61</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d9fd5f71-1e78-4f53-9b3d-e78d194646c3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.92.244.227</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5b5a72aa-9d7e-49cf-bf82-d3f6d2fe6a3d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.92.248.184</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cbc06c3a-e1fc-434f-8421-f2a65c081289" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.21.28</Content>
+      </IndicatorItem>
+      <IndicatorItem id="69593827-66c0-4580-b43f-36634eab4250" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.40.3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7f18baa2-7253-4060-9f39-1e54b93ea088" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.209.230.127</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a9c247ab-b361-4ae4-8447-e180490499bc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">157.230.106.74</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c5495db3-8a92-4562-b4d0-eaa999f9db02" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.227.153.35</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2feefcc7-def7-41c9-ab24-65f19a142831" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.71.133.45</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7aedcbb7-732e-40e6-9581-2b54d305ee4e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">2.57.122.152</Content>
+      </IndicatorItem>
+      <IndicatorItem id="97d74021-c37d-4330-bbe2-676e59075ac5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">210.94.114.151</Content>
+      </IndicatorItem>
+      <IndicatorItem id="73d80ed6-eca5-4b44-b4d8-d5fd10a4c020" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.148.10.251</Content>
+      </IndicatorItem>
+      <IndicatorItem id="53c5873c-1172-4897-8ae6-fe66dc1c4677" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.125.136</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8038bba3-bb40-4f1c-8b52-8d8c7358a263" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.125.141</Content>
+      </IndicatorItem>
+      <IndicatorItem id="38e7da54-8025-47cf-bfef-b10281586b7c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.91.108</Content>
+      </IndicatorItem>
+      <IndicatorItem id="517babe9-c459-4b51-a993-9b2c4557313e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.227.121.131</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6a3b3597-0355-41d6-988f-155ed21b4f1b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">66.240.236.116</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7c5c0420-a65d-4777-bb58-0cd6ea2d7296" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.92.247.56</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f603e1e6-ef59-4247-994d-5934b667994b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">94.156.68.162</Content>
+      </IndicatorItem>
+      <IndicatorItem id="abb0718e-d1b3-47fc-9601-f175f8dfd8f5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.131.73</Content>
+      </IndicatorItem>
+      <IndicatorItem id="75d0a663-9604-4a94-acef-5bc566f0340c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">101.37.86.29</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8cca0226-435b-4d5f-b014-665989665e35" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.133.27</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a7cc6827-f5e0-4a75-b012-af90048e4ce0" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.196.12</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f852f616-28f6-4774-b184-4c79c8cf4405" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.196.6</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c050301-55c6-4547-b5b0-83246bcd3bc8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">135.148.100.196</Content>
+      </IndicatorItem>
+      <IndicatorItem id="15b9e741-1c43-471a-b507-378e06aff199" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">14.128.63.121</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e3b103c5-8732-483d-b401-f7d444c46e40" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.253.34.3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c859c59f-0410-4f9f-8518-42ffa921e2d2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">170.210.241.7</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7fa587ef-7a92-4b6a-8bfd-c1e207c1fadb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">43.163.1.85</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b7f35775-7fed-4c35-8f2f-fa0108deb0a7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">47.128.126.224</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e6da9aee-a076-4125-a29e-c68aa397c6c8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">85.192.41.110</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f9a1b3f8-677f-4ec7-b008-90251024af0f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.65.94.104</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d9b5a3e4-b5af-435e-8570-db5d9d09d52f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.232.106.30</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4e22ce43-2b06-40a1-802d-6c80bb09fa39" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">174.85.24.164</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e36fb971-97a3-4b9f-9ff7-9a2e8a67c49b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">202.158.249.1</Content>
+      </IndicatorItem>
+      <IndicatorItem id="06f829a5-4b24-4c6d-98ee-6215d50323e3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.206.136</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c12ea226-db7a-45f3-a713-f306fd468750" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.15.18.72</Content>
+      </IndicatorItem>
+      <IndicatorItem id="40818d11-7088-4b2c-af3f-adfd9d8f1e2c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.79.183</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2e267630-274c-4011-9e40-15906c000685" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">101.251.238.173</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ef494942-7234-4d36-b7fc-f206246a27db" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">110.40.39.88</Content>
+      </IndicatorItem>
+      <IndicatorItem id="18681fc8-cf02-41e6-8103-cf09a8838c10" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">111.173.119.245</Content>
+      </IndicatorItem>
+      <IndicatorItem id="326e573e-1ba2-4e91-ba9c-a30f79f09471" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">115.164.208.197</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bf882756-88bc-4574-bff7-28caa4960537" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">124.226.222.66</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e91af44d-68f4-442f-a0c5-c579bef7e2ff" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.135.136</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8a5c6c88-3e46-4d0b-9c99-3c7e7bf2184b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.135.15</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7a7d2242-885b-4ce7-83d0-7a7a9c0f9b90" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">143.92.32.135</Content>
+      </IndicatorItem>
+      <IndicatorItem id="58099bfb-72dd-431c-b69f-d706bbc011b1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.227.210.1</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1125405a-a7e3-4bef-b6df-8af14074fb68" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.99.203.178</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f45464f3-bc8f-4b4c-83f5-a6816d679023" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">168.235.203.215</Content>
+      </IndicatorItem>
+      <IndicatorItem id="05254027-acdf-4fae-a6ca-cad8dcf39c1e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">178.128.6.101</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d0591204-fd54-4214-9b31-b21ad09c4491" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.125.188.54</Content>
+      </IndicatorItem>
+      <IndicatorItem id="928da824-83d8-40df-ae65-8eec422476a6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.125.188.55</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8e06d50a-7130-4a9b-8616-0a8caf9179e5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.125.190.57</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8fabd5e5-1b0e-4cfd-b798-4f0eb8052c67" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.196.10.171</Content>
+      </IndicatorItem>
+      <IndicatorItem id="465fb8d6-8fa2-4f5b-b81f-117c551ff73d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.224.128.43</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1cad37c3-de4b-46a8-9378-c26035207518" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">192.210.150.32</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a394366d-3129-42cc-9ab2-2dc28dc25fa6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">193.35.18.248</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2f5f66c5-059a-4f7f-8d97-42bca753465b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">195.191.219.131</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ef00b4c3-c1fe-4341-b6b5-9e5f8757f40c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">202.142.158.163</Content>
+      </IndicatorItem>
+      <IndicatorItem id="78cdbff8-43a0-4342-b739-86010a941e34" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">202.93.214.170</Content>
+      </IndicatorItem>
+      <IndicatorItem id="382dfc31-5b7b-4c6f-a670-e76dc172cd40" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">203.190.53.84</Content>
+      </IndicatorItem>
+      <IndicatorItem id="84760f1e-7909-4fcc-8d68-ec82a1a1ef25" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.168.34.222</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fb05d921-36c5-4950-a4f0-1696f689a71f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.168.34.57</Content>
+      </IndicatorItem>
+      <IndicatorItem id="91f67eac-9236-408c-bb31-811947bbcdb2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">216.245.221.85</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3c297c1e-ce93-4690-999b-4095c77d030f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">220.231.145.212</Content>
+      </IndicatorItem>
+      <IndicatorItem id="80908296-238f-4233-a066-6181fd463470" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">221.225.101.161</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eebe1842-adc5-46ae-a2b5-958f91edba96" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">27.50.59.146</Content>
+      </IndicatorItem>
+      <IndicatorItem id="60c907fb-4cf2-4060-8725-00856f516b33" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">34.133.152.247</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1e20e927-71fc-4796-8eaf-6380f0578189" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">36.182.49.11</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5569be3e-b9c0-425b-8cbe-59e13e3ac9c7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">39.180.69.50</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3bc1cc55-e8bf-4734-9140-5cb18665c893" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">41.108.219.55</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3cad3675-160d-480a-aa66-e70294660be8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.148.10.251</Content>
+      </IndicatorItem>
+      <IndicatorItem id="058eca8d-9509-429a-9647-041f14b7923c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.148.10.59</Content>
+      </IndicatorItem>
+      <IndicatorItem id="240881b1-2bcd-42be-b3bb-312dfb141e88" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.148.120.87</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0a827ecc-33b8-478c-8c4a-9494a5497985" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.129.54</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2571c695-a008-4be5-8cef-f7540933b764" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.129.56</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6f51621e-0d77-4de9-a0d9-e8e2a47e0eb6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.5.65.220</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2d46a396-b57e-4da0-97c0-17fcf20c4153" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">5.133.192.128</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eb2ce224-2ff0-44ec-bdab-d1d52d3e67a4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">51.222.253.2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c6f51f36-1642-42aa-af64-82785fe92cff" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">54.36.148.193</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0891946e-283d-4d05-b356-7eaa043b2ef0" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">54.36.149.56</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1a0668b2-6905-4c7b-a388-a8a8edfc76eb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.62.197.72</Content>
+      </IndicatorItem>
+      <IndicatorItem id="645faba9-8e66-4868-a8bb-5eee049a4986" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">68.183.45.233</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ac136c68-770e-45c6-be68-21dc2dde8f5a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">85.133.221.67</Content>
+      </IndicatorItem>
+      <IndicatorItem id="167d5f7a-6e98-4e8c-8095-68b5ae50b6fc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">92.114.59.139</Content>
+      </IndicatorItem>
+      <IndicatorItem id="22f9d201-f041-4acf-8ed6-302ff8d8269e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">92.249.48.202</Content>
+      </IndicatorItem>
+      <IndicatorItem id="429d4114-7880-4034-b10d-c053743bbd64" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">93.158.91.31</Content>
+      </IndicatorItem>
+      <IndicatorItem id="802161b8-933d-4c7e-8348-8bdf68692f33" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">94.156.68.162</Content>
+      </IndicatorItem>
+      <IndicatorItem id="35aa2777-b8b0-4419-a952-be2ab289bcf7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">3.138.179.209</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bdaac83c-6ee8-438f-ab3a-d8e4f1f31602" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">3.253.194.74</Content>
+      </IndicatorItem>
+      <IndicatorItem id="db4f705c-99c0-4a5a-97cd-20890abe8375" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">3.255.75.115</Content>
+      </IndicatorItem>
+      <IndicatorItem id="957c85c9-6e53-4302-bd69-4e8d7f9d8ac9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">34.87.10.97</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cb01c9c1-3ea5-4474-83eb-302850952461" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">35.203.210.151</Content>
+      </IndicatorItem>
+      <IndicatorItem id="87db7381-2792-4b0b-b253-031e94a0a785" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">35.216.188.43</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c00a2187-f83c-49b4-8cdd-65afb6a09de4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">35.84.118.171</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b35c2e24-24a1-4605-83b7-765aab8bcf77" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">54.171.230.55</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a749c1b2-cdeb-481c-b8ff-bf77d3f3c9be" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.189.91.81</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d351fd55-ec53-48ff-a41e-ae2c099b236d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.189.91.82</Content>
+      </IndicatorItem>
+      <IndicatorItem id="781dca5a-40da-41ea-b6c8-67c7804b0cc6" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">c40577e0b5784fb65bcb285d578bd2c8b5dd5ed654edb4c3bee5d8f86e86a50e</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c3849d88-4b99-42d1-ac44-accd2a80568c" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">6d38b2c2970548b0d8414d968e1692ee</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1b289e8c-9021-4aa2-bb50-f30a5293976b" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">08ea7c310695a08c5de006ebf2afb3f9d7d6d9ce</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1cc73c2b-8ec2-4a7b-94b5-061f651dc592" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">6df7b03238e70b2297ef9171c9336744e56c4f17</Content>
+      </IndicatorItem>
+      <IndicatorItem id="235d3f28-06c8-4af4-9958-3fa4488d9fc8" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">80c978693c055b5fcd9c836134fca7cd300bdb6c</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bb696b70-449f-4f0e-b5b5-430ebf0b0a64" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">a8cd73b20ec7aafb52970b7d25e520eea4142456</Content>
+      </IndicatorItem>
+      <IndicatorItem id="95c6d984-7879-4bee-bcae-a68d8b38d5c0" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">d9b6db9e947ae77aa5a3c8dd8d289ac481dcfaa8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1a98fceb-9ace-4eea-b979-e819958157c1" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">6de1ab18803c3a034ae5f92beb6152ef4bd697530e1db6bdb998cf668a606318</Content>
+      </IndicatorItem>
+      <IndicatorItem id="31553cee-088a-400c-b373-a6f837412ec2" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">74652854a125d4395122e1afddf3615a</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6b7856e9-b439-4bb0-bdda-d4d09dc4333f" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">895531f9d849155e054903e7cc466888</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b9a7602a-9221-4da0-aa1f-b9bbaea37fb5" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">a77becccca5571c00ebc9e516fd96ce8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="89affcc3-4d7b-49ea-b0ee-f99163a1b187" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">eb69150e0f3bfc15abea38fdf4df95cf</Content>
+      </IndicatorItem>
+      <IndicatorItem id="65b9b898-3ada-48c3-9901-4b78a53b2fdc" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">f2e4351aa516a1f2e59ade5d9e7aa1d6</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7decae9e-09a1-4c23-859f-fcc32f02b123" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">1b751a2ee3af91c4cdf020914de19169fceb51ac</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b3361701-67fd-4762-9128-b6a98ccf23fd" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">238e3da6ee00ef8162bb866ef42ee818d42c99dd</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0abb9dc9-2eda-4ccb-915c-27a27f951956" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">4271c3690af27765533a3f1eb30a40d5aebf90bc</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3c09e954-514f-45c9-a1bb-1bbd1e054a1e" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">838581a9ce8e41432b1581363aa8c2b55a5ea733</Content>
+      </IndicatorItem>
+      <IndicatorItem id="417e8788-ceaa-4995-8b16-45fa058e9d1c" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">d8fb7d7985860e813d33927aa95f7ac54ff400b6</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9a48719d-fa4f-4ed8-b91d-270e4d984e37" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">07594ba29d456e140a171cba12d8d9a2db8405755b81da063a425b1a8b50d073</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6ff2f220-70d0-4e31-a502-48edb035079d" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">0db16db812cb9a43d5946911501ee8c0f1e3249fb6a5e45ae11cef0dddbe4889</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7eeb2ac4-b162-426a-abcc-31b4acbebe1c" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">5c204217d48f2565990dfdf2269c26113bd14c204484d8f466fb873312da80cf</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5b177d96-dc03-4ef5-9e50-0859bee96df8" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">6608aeae3695b739311a47c63358d0f9dbe5710bd0073042629f8d9c1df905a8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6b8a9269-7f61-462a-98fb-64a37245836e" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">7d8a4aa184eb350f4be8706afb0d7527fca40c4667ab0491217b9e1e9d0f9c81</Content>
+      </IndicatorItem>
+      <IndicatorItem id="990ed5f6-1f37-4bc0-b505-711c95d84e7d" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">8c382d51459b91b7f74b23fbad7dd2e8c818961561603c8f6614edc9bb1637d1</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0923e9c4-41eb-4be0-9077-d0e23f0962a4" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">c5545d28faee14ed94d650bda28124743e2d7dacdefc8bf4ec5fc76f61756df3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8758a7dd-21d6-4c1b-a38b-601411455fae" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">e60d911f2ef120ed782449f1136c23ddf0c1c81f7479c5ce31ed6dcea6f6adf9</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cfd328d1-7f92-4588-8809-9f1afc011348" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">e9ad648589aa3e15ce61c6a3be4fc98429581be738792ed17a713b4980c9a4a2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9471ec57-9f47-44f7-9e31-a4a6227e38ea" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">bargainnygroandjwk.shop</Content>
+      </IndicatorItem>
+      <IndicatorItem id="32c08e14-39db-4c4c-a099-008c0d7c6e7c" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">computerexcudesp.shop</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2a684e73-2c62-4612-8456-67465ccd1067" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">disappointcredisotw.shop</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cd629774-23ab-44e0-a2a0-7a7ade6f3b91" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">doughtdrillyksow.shop</Content>
+      </IndicatorItem>
+      <IndicatorItem id="35e9fb6d-b00e-4ea7-8a38-af1bb8ca2936" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">facilitycoursedw.shop</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3056f945-fa1f-437c-8172-f21045706bb6" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">flexiblemaria.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e7c22f2a-da4b-481e-9edb-d6627a419909" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">injurypiggyoewirog.shop</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bcb82693-7495-40d9-b738-ed2a54026ab7" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">latesttributedowps.shop</Content>
+      </IndicatorItem>
+      <IndicatorItem id="48124e9b-e024-43d7-bcd5-dded65767ff7" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">leafcalfconflcitw.shop</Content>
+      </IndicatorItem>
+      <IndicatorItem id="50eac357-b88b-4f46-86b9-1158a1d954b0" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">publicitycharetew.shop</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1430b1b6-1bf0-4209-9aa5-1539c8c465c7" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">tuchinehd.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5633f8a7-b170-4a2d-80d6-cad30a99a280" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.234.216.114</Content>
+      </IndicatorItem>
+      <IndicatorItem id="33eb1468-ccd9-4707-a094-fab89d1e2d5c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">141.11.84.118</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e8254416-6c59-4b52-b2b2-8c80862a200d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">213.145.74.104</Content>
+      </IndicatorItem>
+      <IndicatorItem id="80b000b7-6dd2-4f38-b775-f30da9610173" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">141.11.221.82</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d707fda5-6805-45b7-a8e6-5a0174d437e2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">149.40.54.138</Content>
+      </IndicatorItem>
+      <IndicatorItem id="14979c56-124d-4382-9480-0f9923c4c45a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">144.217.48.60</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a4edaea7-3c14-49fc-8cd2-cd86a47ff6dc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">145.239.19.192</Content>
+      </IndicatorItem>
+      <IndicatorItem id="60b3881e-d40c-4c96-9bf4-958d8ed3a87d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">188.165.199.49</Content>
+      </IndicatorItem>
+      <IndicatorItem id="74d74661-a725-4736-ae97-ef8eae360af9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">189.245.168.193</Content>
+      </IndicatorItem>
+      <IndicatorItem id="953349c1-4213-4e00-9820-b5374e54793b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">191.101.71.3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d5f1d759-5c66-4989-b468-e43dd3d5f9ad" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">194.67.71.136</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3309c2a2-aa5d-40f4-b69e-bedc74590d1a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">194.67.71.170</Content>
+      </IndicatorItem>
+      <IndicatorItem id="08cc7dfd-e10e-45c5-85be-85d20f423325" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">203.210.182.196</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9169ed78-cd5d-40d4-8931-23960ceaa354" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">23.94.248.190</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f1a3c946-edf9-4b2c-956f-5ca654f61a5f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">47.96.176.13</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8f98dc82-5262-493d-9cbc-c646b8cb5141" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">49.232.157.82</Content>
+      </IndicatorItem>
+      <IndicatorItem id="347967da-85b7-4c2c-9eef-bcf2cc7c031c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">83.222.191.62</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4fe2a05c-cfdb-4436-9169-0d661e67a2e8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.107.127.159</Content>
+      </IndicatorItem>
+      <IndicatorItem id="90fefcc8-66d5-45c7-b905-54789393cb93" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.40.115.13</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e6a352ca-c7be-4e04-99e6-eac6eeb69e5e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">92.117.23.101</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cce80799-5f21-48b8-ab2c-1d46da11bfd6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">92.205.29.251</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c40f4564-ac5b-4528-be51-5782b4f13493" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">93.113.237.25</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ca356be9-39e6-4c94-a818-18e6ae72cbf5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">93.200.157.54</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ab4635a2-39ba-4d33-8bf3-cb645e09b3f1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">94.72.130.100</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1f9ab4ca-d696-44a0-a310-c6a28a826f51" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">52.14.41.183</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d69dcd1e-c102-446e-8831-575642e88565" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.150.26.220</Content>
+      </IndicatorItem>
+      <IndicatorItem id="741b433e-ae30-44e5-bc8c-fd45cb41d046" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">213.232.235.68</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cfc53309-9409-4c59-9548-b2bdac9250d1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.199.24</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5ac67a30-bd65-4c1e-ab9e-e346f8920d4f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.26.23</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6f178460-6166-495e-94db-b520c491eaca" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.28.54</Content>
+      </IndicatorItem>
+      <IndicatorItem id="70f35d49-d6f4-4a4c-9071-548067f1dac8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.70.15</Content>
+      </IndicatorItem>
+      <IndicatorItem id="26c39443-0bfa-4d02-9997-41e5e2c5b955" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.189.59.177</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5bbd3758-580b-48ac-a794-0c602629bda3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.81.28.249</Content>
+      </IndicatorItem>
+      <IndicatorItem id="de10c052-66f7-492b-aafa-78bb2703ead8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.244.16</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8e10570f-c176-4ffd-9640-638077c78d7f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">37.114.63.46</Content>
+      </IndicatorItem>
+      <IndicatorItem id="94bc4926-aa65-4bc4-a0b5-9fc236653812" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.19.143.26</Content>
+      </IndicatorItem>
+      <IndicatorItem id="96271680-1279-41e3-8da9-e1b4bf56b0b5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">81.250.173.151</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0d0a6da1-0e8d-4671-843e-5e2dd05e0dac" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">116.90.97.194</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a8533280-5e2d-412e-bd9c-a26a5a51e734" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">118.123.105.93</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3a630014-d1fd-455f-8816-de8ec26be0ee" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">118.200.133.199</Content>
+      </IndicatorItem>
+      <IndicatorItem id="45682978-8189-4b8c-95dd-e5705f2a951b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.209.235.137</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bdeed9bd-becc-4c68-af8d-cb7aa27e6f0b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">146.199.255.24</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5e498fa3-134f-4822-9d26-de60002dabe5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">153.239.4.15</Content>
+      </IndicatorItem>
+      <IndicatorItem id="64e50a05-2b20-4d0c-864a-3a3abe481dc9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.8.93</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2debe053-6b9f-4462-a4e8-4f29aca2e9de" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.199.123</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a5889877-8a02-4302-a4fe-5544eb30ae82" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.131.106</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1cd9ca9a-f26f-480e-b77c-8cc37e37539b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.231.52</Content>
+      </IndicatorItem>
+      <IndicatorItem id="81998f47-325c-4023-b793-028c4eb2b994" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.22.29.184</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fc36218c-962c-4430-b605-de706867144f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.227.163.164</Content>
+      </IndicatorItem>
+      <IndicatorItem id="db1101d7-2b5d-4d4d-a51e-c7a9b710070e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.172.108.137</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5cec76e0-26cf-4ab5-b7a9-1859b54f7385" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">178.215.236.29</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9a59125a-07e3-4992-ae7d-15170250c0c4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">183.89.249.8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2614af79-bf94-4201-8f8f-abead2945d8e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">194.55.186.238</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5a1b41be-024f-472c-a5da-ff442d3cafee" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.81.30.149</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8e6a5cb8-7a55-477c-a5f7-a8f36c7c6d5e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">207.154.223.100</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f15e6cb2-c597-48fb-a1a6-fa72eab72741" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.214.238</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e64be307-7b93-4b08-b77c-7f8cf933247b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.244.127</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5db779c3-5cb1-4ce3-9b16-34901c213ce3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">68.183.216.86</Content>
+      </IndicatorItem>
+      <IndicatorItem id="15215dcc-669c-4b35-94dd-079bd2d040bc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">8.209.96.179</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b40cbdb0-017a-4f10-afa0-20fcbe634721" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">8.24.110.74</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e15de503-9a92-4461-aee5-0e1ee86a6d47" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">83.222.191.62</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7b151f18-f7e9-4aa2-bf66-418eea9f0742" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">83.76.34.221</Content>
+      </IndicatorItem>
+      <IndicatorItem id="083e3ff1-d013-4a3b-a176-44c16d1c3a0d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.92.241.222</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4b05877c-a5fd-4f70-a986-c794c58b4017" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.92.244.183</Content>
+      </IndicatorItem>
+      <IndicatorItem id="31914835-ba26-44a1-b66c-d1979b1e770e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">93.179.198.59</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cc1d2723-febc-4420-a3aa-42447e429c61" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">94.156.248.17</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d39500a9-f902-4c26-b025-dfeb719fa6f9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">94.156.65.123</Content>
+      </IndicatorItem>
+      <IndicatorItem id="714b156c-c6ac-4e39-9ae4-83cff275f8da" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.200.76.78</Content>
+      </IndicatorItem>
+      <IndicatorItem id="108107e2-9441-4642-a539-fd39883887ef" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.232.199.42</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7bbd9f11-43ab-426c-9103-46511921a655" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.232.39.180</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7a290674-b0f7-4a90-85ef-1fb215e2bcd9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">117.43.103.194</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e6dcdf8c-7bb5-4447-b58b-754ff1879ff6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.203.69.196</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c29114b1-abb0-489c-951c-0951cd6ba466" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">172.121.220.188</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a5de2435-c04d-42dd-9b7d-be7bb2a41881" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">182.117.230.78</Content>
+      </IndicatorItem>
+      <IndicatorItem id="80d07fd8-01a4-4dc0-b7ca-109a644e7b67" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">208.100.26.237</Content>
+      </IndicatorItem>
+      <IndicatorItem id="97f383b5-f059-4a7e-85dd-7d9c3e85a5a3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.183.139.216</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f89df1af-4f7f-4333-9b6d-f5d278ffa23e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">49.51.199.195</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fea28c26-3b64-415a-9950-8d10d5886096" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">187d6f2ed2c80f805461d9119a5878ac</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d732d550-ea7a-4b28-bec6-42d9bd2297c5" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">26a5a7e71a601be991073c78d513dee3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="177373b0-77db-4a5d-b300-5c36790301f1" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">5bf7560d0a638e34035f85cd3788e258</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c04f1767-be5f-45b9-80f4-3e2a0908edf6" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">64454645a9a21510226ab29e01e76d39</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0241b856-eea6-45fc-8444-1ee7028e42fa" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">6a9bc68c9bc5cefaf1880ae6ffb1d0ca</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d788128d-6872-4a4f-9a33-74c99a4a1f6f" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">87c88f06a7464db2534bc78ec2b915de</Content>
+      </IndicatorItem>
+      <IndicatorItem id="29a26991-21c2-4039-ba91-4c0c019285cb" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">9f89f069466b8b5c9bf25c9374a4daf8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2df08813-bafa-4c0a-887d-b244ba021104" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">e02be0dc614523ddd7a28c9e9d500cff</Content>
+      </IndicatorItem>
+      <IndicatorItem id="50d2698b-3c55-40cd-afce-603e54cd0c79" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">e2175f91ce3da2e8d46b0639e941e13f</Content>
+      </IndicatorItem>
+      <IndicatorItem id="56ad1987-3a3a-498e-8f43-e726fe114ee9" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">ed7178cec90ed21644e669378b3a97ec</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b3e48d8a-1ba5-4abc-9043-d742c5be1c5a" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">1e046b721666530c058f04d489a34b5752a8037e</Content>
+      </IndicatorItem>
+      <IndicatorItem id="123b3009-8c32-4455-afa7-094106659de9" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">28725615c8dc026161bf0b3a647e56614c0093e9</Content>
+      </IndicatorItem>
+      <IndicatorItem id="072ec705-b8ca-4137-b3f1-9a0894d45d61" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">3993b4c620836ac62ca9da6b6ecb61349b49d433</Content>
+      </IndicatorItem>
+      <IndicatorItem id="12ab5a59-0f93-450b-8fee-8f0f25902a1b" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">3d90768c117873cfb31102abec7b4e0834cd778e</Content>
+      </IndicatorItem>
+      <IndicatorItem id="78d0328b-d4d4-4b51-a4d0-f1940fab676a" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">4d89f323a89acefc43c312cd0d198066db7ddf34</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cc69fddb-1cd9-4a3f-b1ad-860efcff10ea" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">783d8b32d5a99bfe1367f0709562e36a6b4a042f</Content>
+      </IndicatorItem>
+      <IndicatorItem id="83d6cf20-f094-4f28-9724-dad5fee9d62b" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">94d55e31d71d2a952765fdb7f19c935f1a5ec72b</Content>
+      </IndicatorItem>
+      <IndicatorItem id="dc2235f9-ca5b-4401-a9ec-f1cf4b6e40de" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">a900b33ba9700cf0aece6c2811202253767aa6e2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="54807a2b-f753-4993-a216-f49917f3dda1" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">b6e415016b0dcba7030c11a262d540dc8fb231c5</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1e40dd25-4eee-498e-86d1-ab83a0f4bab6" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">e7d90f41c04d955289144348856b7011175d09d0</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cc7bafde-0969-407f-8000-3da8bc47fb69" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">0e3324587a07df499e97b58076a94e86bf5598cc6d9606c2dcee3941175ff043</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e76b8c92-2615-44ad-b316-06c393215050" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">1a2282cc4c13bd24b2ca20c494cacbd283fbdcc4864d9cde26ea55db800f4dda</Content>
+      </IndicatorItem>
+      <IndicatorItem id="000259ab-6b07-4346-ad5a-3c97abecec1e" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">2aad0f8b439c3824d51871a0744c0e2f578277e0ec73effe5a24c49d8048bc74</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8b3a4587-b282-436b-9e1d-c9526d157486" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">44369783a819a38909e89449495fb98c3f9ba07dd0d2fa55a24a560a89f21a86</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4ec9f456-b9ea-44b2-ace2-218986efc719" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">71f6b36bfddda2d3a506574991a44636f84df28f9350e7856d1cc8af07cdd821</Content>
+      </IndicatorItem>
+      <IndicatorItem id="edbcfa31-7bb1-4015-ae2f-44b7f64517c5" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">7c7acd87b47d405da4d6efa2c43599148e12c094970ba198905f0a165d79a78f</Content>
+      </IndicatorItem>
+      <IndicatorItem id="dc15157b-9991-45ec-9e5d-8d56f0d0aa1f" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">882f39945974aa5fc6005bf646ee3ab21bf69de12985d6ad8cc497dbfe520728</Content>
+      </IndicatorItem>
+      <IndicatorItem id="24065ced-82e5-4b84-8116-5927c38d76b9" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">97daa26c59e0e151f66872147ccd30dd1815bc6e63ec40c288130c6e8a6ea992</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bcc2cba4-6ad7-4c05-bbcf-0694bc512a31" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">b1cca678dbd6bd51e6e8e797b95dc3050a74f5fa8147603473d6229023f1eb1a</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0816b691-d6d0-4b1f-b35e-e75ac0a056aa" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">b271e74ed44c3c405da858f29b6dfd4a99658dcac7bc83938079ad0dbbdf1b66</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c682ae76-6748-4652-b7eb-c355a348ed45" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">87593c20fa6361408d9c1c53180074a9224df1623ff2bd8c1c2961346d5a38df</Content>
+      </IndicatorItem>
+      <IndicatorItem id="55bb6990-dc0d-4c96-aafd-4a13e7bab0bf" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">91e405e8a527023fb8696624e70498ae83660fe6757cef4871ce9bcc659264d3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="43f4a005-d48e-47d8-868a-e045c9de5ae4" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">chuathuongxot.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="df2183a5-1bbc-4b9c-964b-30e93b3719a4" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">f04tb1itjdltmym.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d41f40ec-03d5-4de5-ac02-3e0e33ff8c6e" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">ga1yo3wu78v48hh.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e8a184eb-dabf-42a2-92e5-f1c4733ff5e9" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">gggkmibncajjjic.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5e90a580-3151-4c23-ba45-9aa78e29e451" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">klmnnilmahlkcje.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="997a5945-3bd8-4348-b6cb-2cd5e7ed0146" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">rosetta.cn</Content>
+      </IndicatorItem>
+      <IndicatorItem id="84000b17-3f04-4093-837c-e50b22c40d18" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">rosetta.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4292cc55-d119-4f80-89ee-a53f0c2cf240" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">rosettahome.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c40e36a1-6148-492b-99cb-3209a2ddb291" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">rzegzwre.top</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cea08d92-24f7-4a7c-b9ff-e1603f4f3d75" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">smalladventureguide.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8435cc82-957a-4b1b-b842-dfe67c7ebcf0" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">qalw.fans.smalladventureguide.com</Content>
+      </IndicatorItem>
+      <IndicatorItem id="98b88410-a975-41cd-8d20-cd0ca8ba03a2" condition="contains">
+        <Context document="DnsEntryItem" search="DnsEntryItem/Host" type="mir"/>
+        <Content type="string">yxh.parish.chuathuongxot.org</Content>
+      </IndicatorItem>
+      <IndicatorItem id="806e13c9-e9c0-4d1b-a53e-7c6c66ae33df" condition="contains">
+        <Context document="FileItem" search="FileItem/Md5sum" type="mir"/>
+        <Content type="md5">19e5c726ccf1b1797cc6b379cf5ba41a</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c27ac358-67b7-4a26-85df-c0a00ccb7a7b" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">f159886dcf9021f41eaa2b0641a758c4f0c4033d</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2868fddd-f1cd-469e-89cc-3c16fb218f5f" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">ef5b77c003be850406ff8a18a35eb094632dcdc8f6112efcde036e3c454dde0c</Content>
+      </IndicatorItem>
+      <IndicatorItem id="51f6f12b-1665-45cf-98dc-3c2315fa2c24" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">179.60.149.54</Content>
+      </IndicatorItem>
+      <IndicatorItem id="24823e3a-580f-47ae-8b87-6e52cef6f045" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">183.134.104.172</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6000d66b-4cdb-4166-87cb-144da84cf4d7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">194.55.186.249</Content>
+      </IndicatorItem>
+      <IndicatorItem id="18d00fdc-332b-411a-95d3-e9eb2f263a57" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">198.46.154.130</Content>
+      </IndicatorItem>
+      <IndicatorItem id="39b2d15d-c0dc-42df-a268-e8854ff1e404" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">202.107.226.2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ce457615-d495-4f52-984f-3f4e29089440" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.189.57.162</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d2899e0d-9a90-48d0-9489-d617c008df06" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.222.231</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ec72164c-85f4-4991-b9bc-75a9fdf934d8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">211.19.66.186</Content>
+      </IndicatorItem>
+      <IndicatorItem id="239e7422-4cb3-43f1-90ad-70892222724c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.138.16.130</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a877bf3a-c0b2-4a3a-ad62-b7f3ab01575f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.161.74</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a6dbc2ab-c15e-4963-bfe0-07c6745db174" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.225.155</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d7852fb7-e1d5-45b6-8271-efcb866196fc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.225.195</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b72e99ad-bc77-4ed3-97d9-51127f7d89b2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.225.217</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c02dbcac-ec77-4640-b538-8da1f8baebe2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.225.68</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1424d13d-f533-4923-b7e5-d78086229e39" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">51.190.239.41</Content>
+      </IndicatorItem>
+      <IndicatorItem id="199674aa-2741-4838-96a4-6a7ecb9db8a2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.227.146.163</Content>
+      </IndicatorItem>
+      <IndicatorItem id="91d6f1be-ae02-4f48-b767-318bbe78cc9e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.65.226.110</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3cdac9e8-ec74-431f-8318-5f8b7e50dcc6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">204.48.18.47</Content>
+      </IndicatorItem>
+      <IndicatorItem id="144c5fc5-aac8-4c58-b050-438fe1bc3752" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.189.56.145</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d12cfb81-516d-429a-b825-0b150d9d84bf" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">21653e267a6c7e4f10064ad2489dba54e04612cc7ce4043b8c8dcaf8b39210d6</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1a214a66-bd0e-4cd4-9363-f03d47e9a890" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">139.99.232.135</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f2835a54-7489-4285-82ed-0fea3cf5494a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.255.114.110</Content>
+      </IndicatorItem>
+      <IndicatorItem id="33a57c81-547b-4aa8-8cc3-bb8b8c61f50e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.255.114.63</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c181661c-61ff-498f-98f8-5573ec91b2f6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.197.216.10</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cf6f4dc3-acd5-4aad-98bb-ab5bf2c08ee7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.68.248.190</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b97f82f8-8b76-412b-9e5b-5fa07c1aa861" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">157.245.224.240</Content>
+      </IndicatorItem>
+      <IndicatorItem id="98e5e165-5015-49ed-84bc-4cb0f6b66245" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">162.243.165.121</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7274ce82-1369-444b-b9d2-8e38760137d8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.71.116.75</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c1d9bcfd-935f-4fc2-9288-fbf834e10acb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.71.116.79</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c73c5a6d-4f77-4487-a5a9-6bc754e3f4fb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">114.32.246.205</Content>
+      </IndicatorItem>
+      <IndicatorItem id="33dbc4e9-a45e-4691-a42a-80da4d315a31" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.209.48.88</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1fb4d4c6-928f-4123-b9b5-971161a8e1d6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.65.104.153</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ffbd77a6-9744-4443-b263-77ca5917f13f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">184.170.79.34</Content>
+      </IndicatorItem>
+      <IndicatorItem id="81503ec3-2186-45ef-a259-102449b202d7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">95.214.27.195</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e1676f88-6804-4632-9123-6df1413a4f69" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">13.248.169.48</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2f782705-9056-4aaa-8a76-bf4d4f95c660" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">7f846587988fe05de9153e948bc2ae9237d5c29b</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4e7f7a4d-b7df-42f3-9bc6-61247460779f" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">2296ad7a788792489e07d7456d50200155a909ba1206bcf015ce25f7a9653662</Content>
+      </IndicatorItem>
+      <IndicatorItem id="94fd5193-f940-42e1-9594-851aee1862a7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.86.182.8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="87b6be2f-24f2-4235-9026-682ec53c259a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">192.229.221.108</Content>
+      </IndicatorItem>
+      <IndicatorItem id="658e98d5-9bc0-44f6-b770-b918fd588d9a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">192.229.221.95</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4b2f44b1-0e53-424c-9d10-3859998d3bb2" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">3a24e88965e8ba80026d31ea0c911f177940cd5cdd0ca881c14c2a9aa1de5c89</Content>
+      </IndicatorItem>
+      <IndicatorItem id="42e6a488-39d6-4e5f-8cfe-e24b9fa4c0f5" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">79a127c85b8f9b7e59dc29e498928b2dcc10a56ca2b059431a6ff03a2cde43d4</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6d76514f-9a1e-423c-a76f-e4405e167c34" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">bf50daf064ca555c8cfeaa1eaad85cfb873736b16e8dd03b126e36ecb0474d46</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4a57bbc1-ec57-46cf-9a98-fd030a147c02" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.191.13</Content>
+      </IndicatorItem>
+      <IndicatorItem id="71ee3757-072a-4247-b828-54179b9063e5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">137.184.20.35</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c5229ebc-bffd-4f02-acf3-32083e06d308" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.95.39</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9eca4dda-227b-44f3-bb67-5c6ad5f15999" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.232.74.123</Content>
+      </IndicatorItem>
+      <IndicatorItem id="31dedef0-89f6-4c15-952f-19bbc78bc7a9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.227.125.48</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8a8f18f6-c29d-4159-9ec7-1507b28c3dce" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">68.183.168.8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c35d8123-0801-4b29-be39-889db1656847" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.152.52.193</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d6eaa0cd-797c-40c3-aa27-78d55c54c8f9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.229.49</Content>
+      </IndicatorItem>
+      <IndicatorItem id="221717b6-5a8d-4296-af96-36cd6101110d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">109.149.246.185</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b1d6277d-4ec0-4489-8102-b0b282e74572" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.68.153.47</Content>
+      </IndicatorItem>
+      <IndicatorItem id="282af0cf-f401-4c9b-8f04-57312348a49f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.223.160.208</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d14c6071-8239-42ec-8345-b54a81812c66" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.65.111.231</Content>
+      </IndicatorItem>
+      <IndicatorItem id="46c2a1a9-5713-4c5b-afa2-4f2ed469d8b4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.71.57.153</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f8648601-1b96-4464-96ab-dd67c224d969" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">170.64.228.80</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f7c675e3-2239-412c-9802-ecee2d8e006d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">193.177.182.119</Content>
+      </IndicatorItem>
+      <IndicatorItem id="10461582-af22-4a24-a07a-0a85b42f8cb1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">193.32.162.97</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6a68e9f7-8e31-433e-b13f-d814ac0e6f13" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.233.51</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1f4c8087-6261-43ef-a63f-881cf3977938" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.233.75</Content>
+      </IndicatorItem>
+      <IndicatorItem id="da2a6ed0-70b5-4295-bef4-1d5ec842f9bb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.163.218</Content>
+      </IndicatorItem>
+      <IndicatorItem id="990c17d3-7deb-47fb-afe3-6dedd62fcb59" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.164.26</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ff2c8107-90b1-4cd6-855e-95e7434deb17" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.164.54</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cc168b85-761d-4c93-adb7-24644ee2e5d5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">94.156.66.116</Content>
+      </IndicatorItem>
+      <IndicatorItem id="40c0c2b3-b1f9-4621-a08c-7fdaed620f1f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">88.214.25.64</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9b1ed1c0-b31e-4fc4-a8e2-78e91d2b9a41" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.238.181.33</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6708daed-6267-45ba-ba42-96e6cbebb6ad" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">176.111.127.213</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e1be001c-70b8-4e13-b1f3-2d46c581d5e9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">88.214.25.62</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7ead55be-e16c-466a-bd68-0add96472b15" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">88.214.25.63</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6e6de3a3-9ee8-4dfa-9135-eb384c82dbf0" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.238.181.20</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7bee3b57-0ceb-4933-a752-a59d765310a0" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.238.181.22</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6cf1c9de-8389-4577-b036-1a9cf7f4b238" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.238.181.23</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8be27e35-0891-443f-b1e9-10e00c0b8f1c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">91.238.181.35</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9221b054-391b-470c-846b-3f5d53ed54e8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">103.151.122.97</Content>
+      </IndicatorItem>
+      <IndicatorItem id="47c08669-1976-4660-9d9b-f3ef5ac7262d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.213.191.77</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0772e316-68ce-4b4d-8402-0a08c482f9be" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">174.138.41.125</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ef99d406-d0f9-479d-813b-b3ed4f3c338f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">2.58.80.45</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bbc69c57-2c28-43d5-8273-246b372f78dc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">66.94.109.92</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f301868b-7f06-4928-9b80-541573573e43" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">88.218.17.162</Content>
+      </IndicatorItem>
+      <IndicatorItem id="96a3e6a4-c1c9-4a97-92c3-2d932811775e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">94.156.66.99</Content>
+      </IndicatorItem>
+      <IndicatorItem id="69d4dc01-bbbb-4862-b577-03c605ea129c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.228.76</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d054cffa-223e-48e8-b5e7-c32095ea9b8f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.68.143.68</Content>
+      </IndicatorItem>
+      <IndicatorItem id="dcb89ae9-73e9-495c-a4ad-230af53c8a77" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">146.190.41.214</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e2d72ded-5d2a-450e-b470-1c4b2ddd2801" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">147.182.170.34</Content>
+      </IndicatorItem>
+      <IndicatorItem id="814b05ae-b8ac-468e-b65b-e11195f7cfb1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.71.229.198</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c6bf62ab-3f0e-4f1c-a41a-87e0a7bd67fb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.224.128.74</Content>
+      </IndicatorItem>
+      <IndicatorItem id="733f19e2-1cb2-4471-930c-dbfd869f5d7e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.224.128.83</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1909a0bf-47c6-430b-84ef-755c393fca0f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.249.225.89</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6b1a8dab-11a9-4fd8-aeaa-903e93683c86" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">194.50.16.221</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e67d5f79-f91d-409d-bd98-919ef8fff946" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.189.202.191</Content>
+      </IndicatorItem>
+      <IndicatorItem id="212cbc0d-215b-43e8-b2d2-d93cd0626ac5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">216.48.179.105</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fce256d1-9922-4279-9f7e-12efab5f07a5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.200.149.249</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a5573cc9-2933-4b56-abb1-6e24d1271f00" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.89.247.57</Content>
+      </IndicatorItem>
+      <IndicatorItem id="df86967c-9899-4186-87bc-1a31d0dfc995" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">47.91.125.252</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1edbccd1-f35a-43a6-9ed9-60678e1c658a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.7.198.59</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0ba79199-1df0-472d-ae4d-d6cf3682392c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">65.38.121.214</Content>
+      </IndicatorItem>
+      <IndicatorItem id="00b58c70-efd0-4a2b-951e-8cc50d278173" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">72.5.43.66</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0a0c673f-d461-41cc-947d-3db1a679bdf3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">94.156.64.214</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b62cc769-227a-4eba-8d13-084d6951bf27" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">a718acbc6551507d68fe37be4e3267b5f6261d7b</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b49eee87-8e97-4a8b-b65c-d6b5e5a04a52" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">e8088dbb3556b1d0e39402894f82bfdc092353fc</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0a3d5007-cb9e-4406-b320-42dec747e5f9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">142.251.143.142</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eb69fe69-7754-4f22-8e73-acb4a7fdffe3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">142.251.143.164</Content>
+      </IndicatorItem>
+      <IndicatorItem id="58e126a5-7d9d-4993-8c2a-9ee3261924ca" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">142.251.143.174</Content>
+      </IndicatorItem>
+      <IndicatorItem id="df3f502f-5a4d-4482-8434-80cc3796fb5e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">100.42.177.251</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f486127c-4f10-48e2-83d0-ab4782e3cd8a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">100.42.186.124</Content>
+      </IndicatorItem>
+      <IndicatorItem id="db34d735-9594-43a8-a32f-2368eb4fffee" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">103.114.106.2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e9930e50-6208-4946-955d-7a1bb734eaa5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">103.114.106.215</Content>
+      </IndicatorItem>
+      <IndicatorItem id="63512278-5062-4755-8bbf-9351c49dd006" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.152.52.219</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f4b7e2c3-d471-4b2f-aca6-d15baabf4e41" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">107.172.178.73</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2bd3f92a-2ed1-406c-878f-91bb311c6d11" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">114.34.55.245</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1d662ff6-127b-46c8-a13c-5c65369e2221" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.70.79</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f405f766-eb79-4bba-b6d8-d636c4400da8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.73.156</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ff98e195-08dc-4e49-8758-77b32b13f687" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.87.154</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ceba134a-48ed-4c1a-83ff-a88f4ba17266" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.197.181.28</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5cf94d0a-5a53-416d-948d-ad8366e9f5dc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.197.186.113</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1e286cdf-73f9-43ec-9cc6-8b0d0be8515e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.68.101.173</Content>
+      </IndicatorItem>
+      <IndicatorItem id="942df24c-67ca-49f8-96b9-c15bbb4fa64e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">139.59.135.117</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1c2af87d-e66e-4998-8d02-0ba3741967a1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">139.59.135.173</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7beb8994-440b-4495-b07d-27686cb542f7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">152.32.135.81</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2a6601df-b389-40c9-bfb3-7a23904ec1d5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.213.185.247</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5fe6a3ea-c878-4e8d-9059-c92e07362066" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.216.20.215</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eaff207b-e6d5-47e6-bd53-b5061c9ea248" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">157.230.111.142</Content>
+      </IndicatorItem>
+      <IndicatorItem id="efd2e117-8368-4537-9028-70db1a970577" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.65.104.147</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7feb738c-40a9-490f-b247-dbb6c7990534" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.19.7</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bb62bee1-46c3-48d2-bb72-2d9732f34ac7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.21.187</Content>
+      </IndicatorItem>
+      <IndicatorItem id="df8538d9-be89-4865-affe-eb229d715ec3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.23.158</Content>
+      </IndicatorItem>
+      <IndicatorItem id="24963269-946b-4bb5-b50d-78f8231b5dd6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.27.223</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0ed269d5-7768-4a5e-a26e-158d66d5c915" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.30.166</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4cf0125c-6fc8-43ed-8113-0046cba5f6ae" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.97.148</Content>
+      </IndicatorItem>
+      <IndicatorItem id="06b71e01-4e9f-4c8a-ae19-613020e858e8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.163.165</Content>
+      </IndicatorItem>
+      <IndicatorItem id="40e8eea1-ff44-4e28-8baf-7c75971f1f36" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.181.141</Content>
+      </IndicatorItem>
+      <IndicatorItem id="78ef95e7-ce82-454b-8547-64d57fd1ae12" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.185.11</Content>
+      </IndicatorItem>
+      <IndicatorItem id="da828785-b043-45c6-b2bf-3a1574845063" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.233.110</Content>
+      </IndicatorItem>
+      <IndicatorItem id="03b4537f-210a-4af9-a3d3-b3a65dd503b4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.226.99</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c4e1e955-4300-483b-b98b-8afc570aebb8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.230.77</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6ac8c22e-b979-4747-8b4e-820b6071d390" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.232.89</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f36861ac-cf42-4a81-b7e1-69c0a0587817" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.172.169.36</Content>
+      </IndicatorItem>
+      <IndicatorItem id="de832a66-9a84-4783-aae0-5bad32e7de72" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.241.208.130</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1b4f9256-e682-4d3d-8205-c79959ab572a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.241.208.131</Content>
+      </IndicatorItem>
+      <IndicatorItem id="54470a92-3ac1-4a6a-bb61-9caf3a69aa3c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">188.166.71.161</Content>
+      </IndicatorItem>
+      <IndicatorItem id="de381114-c191-461f-9da8-fd4148615db7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">198.199.78.206</Content>
+      </IndicatorItem>
+      <IndicatorItem id="279c1fa5-1a80-4af9-8248-69538f22248f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">2.58.56.25</Content>
+      </IndicatorItem>
+      <IndicatorItem id="057a1774-926f-4682-9b14-8194fa39b2d2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">203.92.45.222</Content>
+      </IndicatorItem>
+      <IndicatorItem id="95317bcc-2dc6-4f15-b930-f9e748f598c8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.189.72.15</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ac9dcbd7-5bfe-47fa-adb6-4b30009a3f91" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">207.154.209.213</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3f144c3c-eb8b-4ebc-b511-791ab42e5da7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.192.222</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d6af92f3-f729-46c5-acd3-614a374a63b2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.196.207</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a602e47d-fcaf-479b-8899-159030e060d5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.200.190</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a112aada-4d1e-4656-a46e-b7daf63a88fb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.236.237</Content>
+      </IndicatorItem>
+      <IndicatorItem id="af8ea1f8-2dbc-46ab-90f5-e188b37cc45e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.141.215.232</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c4f417cd-9eed-4a65-ba36-0fc00107a4d1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.19.143.27</Content>
+      </IndicatorItem>
+      <IndicatorItem id="223702a1-988b-4b6a-ab80-41f4899a755c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.76.229</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7b9b1aa4-e0b9-49ce-8197-67d4dd9488d5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">77.222.130.208</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a60733a3-7c49-47e6-8bc6-aa08d86954e4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">207.154.212.196</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7d857cff-7571-47b2-9e91-d9cd0987a896" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">53eee518661e807cd0c606d9c8ecc6ab9a9d27da</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c5802f42-f83c-4d9c-b994-1da2b31804fc" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">6ac5aec78d03dd01b16499e7597aca64445c7928</Content>
+      </IndicatorItem>
+      <IndicatorItem id="30beeaa1-c4cb-484e-8f07-00c9db54612d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">79.110.62.235</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c85cf761-67b9-4b55-8621-b61f406d24c2" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">d677c5ed63558d9a3c5cb69080ddad1210b5031d</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eb646e7d-07de-48b5-9b61-51a7acea0c92" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">20af72db906bfd039454e5d13a346086a75ae47a</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a8765534-714a-4919-88db-bf95cc20cd26" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">2a14b7f9c0fd3158284a4f5c61fa0d71d1ab7e83</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2dfeb4da-e079-457c-accd-0f3127b3fe25" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">f76be869b48cacf62f1e8e333a179290ca665315</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5be55f02-cfca-4fac-827f-e470d29d027b" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">93710d20b536cd29a82071b9a3cff1e3a07b0fa2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9838efe1-dd0a-4278-9570-bb030faf7533" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">06752f66a537b5b54403210902cd7e51075c7618ddfc7bdd057059543b33fc01</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4723b699-757c-41a5-85df-2052a0f97983" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">2bf229266c34f4f75572192aa259a0323b7b4540a5a29cb71a4fad337c620844</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2bb1d075-f59c-45a0-8756-410ae8b55c74" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">4e42b8fb49fbae7d2bb570503426d3751797c2895b5418d06ba1fb4830119b95</Content>
+      </IndicatorItem>
+      <IndicatorItem id="28405f4a-ca71-451a-bddd-8eb434876d1e" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">8809d03854cbf79e4d86af8f9b7a1259ef9d070c81f195569902226077d3ae1e</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2d4807f7-bdc8-4b25-afd8-46d4205279b8" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha256sum" type="mir"/>
+        <Content type="sha256">8b1ae789959bf508da18ae7a2249e9fdbcb7063f8d9925aeca4f4435d8f78b6d</Content>
+      </IndicatorItem>
+      <IndicatorItem id="60fffa78-534f-4208-a358-944f0fbb3c88" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">202.151.176.76</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ad4138c1-dc21-4487-a04f-99ac5026b799" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.22.90.52</Content>
+      </IndicatorItem>
+      <IndicatorItem id="500a8a9b-d2e2-42b4-b168-3346fd5bc4af" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.232.114.30</Content>
+      </IndicatorItem>
+      <IndicatorItem id="95a83b43-0c54-452e-be7c-2639e6442872" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">180.214.237.198</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b96f7007-105c-40f0-a67d-23c5a9e4d2d6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">139.59.128.190</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c6791fd3-e3da-4799-b218-07a8703ef10b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.209.59</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d64b60ea-7422-4a83-b44a-1b4a7b04116e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.28.96</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d0c58317-45e2-4e58-9b42-92cc78401609" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.195.53</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4e8aec5a-4bd6-4c9a-af01-ba742865289e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.227.149.85</Content>
+      </IndicatorItem>
+      <IndicatorItem id="99c24d64-1473-4102-b403-1849c3844de1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">170.64.227.68</Content>
+      </IndicatorItem>
+      <IndicatorItem id="8e350d47-dc39-4ad3-bf9e-4110452c27c1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.228.108</Content>
+      </IndicatorItem>
+      <IndicatorItem id="27020218-fc4c-438a-b525-742decb66084" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.134.155</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bd8e0e12-b85c-4c76-990a-001f75f10226" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.220.82</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5f408f98-f8e2-450a-b610-e1af1f0219ff" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.107.157</Content>
+      </IndicatorItem>
+      <IndicatorItem id="606a3ec9-fdca-404c-84ca-58a62ca3b146" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.123.85</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2267eaf8-d685-4ad9-bc0b-14f0e74643e8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.227.122.73</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4a38955f-ce52-46eb-bcc8-f4a9aeeee81a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">103.114.107.59</Content>
+      </IndicatorItem>
+      <IndicatorItem id="53902b90-b908-4779-921d-caadbc2cae8e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">103.67.163.101</Content>
+      </IndicatorItem>
+      <IndicatorItem id="91536937-8981-4e71-a00b-8a38a3399f40" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.68.239.59</Content>
+      </IndicatorItem>
+      <IndicatorItem id="07bbfde3-aff9-4dc1-8af5-a53deef73852" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">141.255.160.234</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9d83bd39-af05-4386-9b76-e8bdf4e9a338" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">142.93.246.168</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1d4a2ebb-fd0a-4b00-aa3e-5e46154fed20" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">146.190.166.168</Content>
+      </IndicatorItem>
+      <IndicatorItem id="12f08b7b-eb79-414c-a418-f83b45ecafd7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">157.230.96.93</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d0a8df91-5010-4724-b6ea-ecef3f024546" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.223.118.38</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b713d60a-eee4-4a61-b076-34d6624e58e1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.223.168.69</Content>
+      </IndicatorItem>
+      <IndicatorItem id="381c6444-a666-4f65-8aa8-85ce1c8aa8b0" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.30.150</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fb570061-b161-48f3-a68a-d1715b9a97db" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.19.37</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c8579790-c95b-4c74-8094-b43f8a023e52" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.21.164</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2b05535d-83b2-4bd4-8250-c2a4def7a8b9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.35.26.41</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7a74cdbf-a195-4797-9e5e-214b79077ec4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.238.116</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3620b016-0ec8-4e5e-b4df-ce71d85032b3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.161.131</Content>
+      </IndicatorItem>
+      <IndicatorItem id="43b5ec48-b397-4057-86d7-075063aa02d9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.170.216</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7553be2f-ff84-4f96-9da0-c918de7ee969" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.232.214</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e91e5540-b120-4fc9-87ec-7495808968f2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.246.97</Content>
+      </IndicatorItem>
+      <IndicatorItem id="2c81e3a7-7e40-4729-826b-fbefaebcce3c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.172.140.38</Content>
+      </IndicatorItem>
+      <IndicatorItem id="377734ff-c946-47c3-88a4-3da276ab8bb5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.71.33.117</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4f09e84f-0323-4965-b599-102afc15f73d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.71.63.245</Content>
+      </IndicatorItem>
+      <IndicatorItem id="46e0e21a-c938-4845-83cc-dcace5992ea2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">170.64.130.197</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f0b67d34-cb6d-4473-97ee-9bef66429f73" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">179.43.168.130</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9ea9afdc-c69f-494e-90d9-71ae2f5e390c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.82.219.136</Content>
+      </IndicatorItem>
+      <IndicatorItem id="20d3c603-7ec1-452d-8a96-23a44c8635d3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">193.177.182.126</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d9c8c388-0866-4a22-99c8-9d9a1f0baafe" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">206.189.234.18</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5b10932a-ed6f-4950-b0dc-5f6d5805075b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">210.176.44.217</Content>
+      </IndicatorItem>
+      <IndicatorItem id="723680e1-ab08-4cb7-b310-0e0ce1d6c86e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">212.127.78.133</Content>
+      </IndicatorItem>
+      <IndicatorItem id="180ad668-cf4a-4c78-9db7-8d161bb59e1c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.128.49</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4c0c341a-4209-4378-a9c1-c78c109f9a90" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.130.8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="543bcb13-395e-487d-96ef-560f119a9018" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.139.7</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b4f8ac7f-c88b-46a1-ba1e-c4b250fee590" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.123.90</Content>
+      </IndicatorItem>
+      <IndicatorItem id="366df5d7-60b0-41f8-8464-b979449bede4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.87.165</Content>
+      </IndicatorItem>
+      <IndicatorItem id="20bcdf5d-04d8-43ac-acec-2a90805207a3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.95.19</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ecb90fa7-ee09-40c9-b533-068f627cb929" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">68.183.193.242</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d829aac7-854c-4eb2-9867-f5e20e02d947" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">68.69.184.230</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1564331b-608d-4919-aa31-6a547cc259e4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">74.82.47.5</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ea881810-60cc-4ea5-842e-2893c8003291" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">cc4807eb52aab62c8e0bc0cfbb397dd0d618a107</Content>
+      </IndicatorItem>
+      <IndicatorItem id="40bc9f55-92fc-4df6-9d36-b4c291022fa5" condition="contains">
+        <Context document="FileItem" search="FileItem/Sha1sum" type="mir"/>
+        <Content type="sha1">d849c0896d3a23782eb67555244f28c119ee5b3b</Content>
+      </IndicatorItem>
+      <IndicatorItem id="1ca17289-5765-4ac7-b84d-a5dc761df787" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.82.219.179</Content>
+      </IndicatorItem>
+      <IndicatorItem id="72a9777a-fa94-4bee-bd47-25b9f4889392" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">193.177.182.126</Content>
+      </IndicatorItem>
+      <IndicatorItem id="df2d62e2-5542-4d92-8e24-afaf264785c6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">207.154.251.229</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9896fbc4-8d79-46df-98c5-3e879a42e958" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.206.157</Content>
+      </IndicatorItem>
+      <IndicatorItem id="139db1a0-2043-4fe5-b630-8b1fcd89b561" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.206.87</Content>
+      </IndicatorItem>
+      <IndicatorItem id="852ff1a2-3a8a-48a9-a1c7-f92ae8dfe9dc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">37.114.63.106</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b14690a1-211c-4a92-939b-9c1984e31ac9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.128.47</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c27bf4b5-a561-41ad-b7f2-41c004e16d0a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.129.52</Content>
+      </IndicatorItem>
+      <IndicatorItem id="125213e2-e928-4df3-87b9-c85baf5f8e8a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.130.6</Content>
+      </IndicatorItem>
+      <IndicatorItem id="47fcd40f-4eb7-4b51-9de7-f99550d0e1b8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.214.252</Content>
+      </IndicatorItem>
+      <IndicatorItem id="55a4d60e-78d1-405f-a409-c3c65a916d0e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.215.43</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ffd5767b-5286-40ae-a265-f6d1140d11e1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.226.115.204</Content>
+      </IndicatorItem>
+      <IndicatorItem id="457f4c6a-3a48-4169-80df-ad902e867e39" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.227.88.224</Content>
+      </IndicatorItem>
+      <IndicatorItem id="99faac10-c0b9-4fbe-b0a5-28ce5d5d38f1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">68.183.68.147</Content>
+      </IndicatorItem>
+      <IndicatorItem id="637bf32c-54cd-440d-80d3-8306094b6091" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">75.119.129.239</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4b73ecf9-0711-48d2-a6bc-6855e81dc518" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">85.133.202.15</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c627fe67-6963-44f6-9bcf-8089310a039a" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">92.55.190.215</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d61ec4ee-31d4-458e-ad2e-e59a171c4f2c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">95.214.27.155</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3eaa7091-a4d4-47cd-9add-cd262fd5276c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">35.216.218.118</Content>
+      </IndicatorItem>
+      <IndicatorItem id="97225062-e288-48ed-bc22-4817359bbc7f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.216.16.80</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0ac856a7-ffa1-4b58-9b5c-2f1fc129fa35" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">54.198.68.150</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a8752da4-0cf5-43cc-a06b-837a8dc5dd5f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.216.17.145</Content>
+      </IndicatorItem>
+      <IndicatorItem id="150836ab-5755-440a-8c6a-c5082c87b423" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.216.18.39</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9a4b8dcc-c900-4cd1-aa90-c15ce8f4cde4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">207.231.109.230</Content>
+      </IndicatorItem>
+      <IndicatorItem id="70722337-0459-4293-a883-fba73d642596" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">68.69.184.230</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fff622fd-0e5d-4ed9-9920-d0e812106430" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">101.200.149.135</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5b2e9317-cda1-42b6-9c3e-40ed560a8cbd" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.136.170</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cc19b0dc-5e6e-4b8b-8c50-2dcb37e47662" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.17.127</Content>
+      </IndicatorItem>
+      <IndicatorItem id="34695e87-36ca-44d3-ae79-e0435cf3a403" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.122.86.152</Content>
+      </IndicatorItem>
+      <IndicatorItem id="48de361c-9576-4684-bbd8-514ce91a4045" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.68.4.14</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d7249a74-a915-42df-9092-af61ae2bbd44" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">139.59.157.194</Content>
+      </IndicatorItem>
+      <IndicatorItem id="30b293f5-a009-476d-8e4a-385b681bcbe9" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.203.190.37</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a9b0ae65-5ed9-43a5-bcc4-ad64f1b982dd" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.65.117.184</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4bbe515f-6ece-427c-b998-bb5251e099a6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.97.151</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4c1c4929-2b07-4cb3-b25c-a1b50e7f46d8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.210.55</Content>
+      </IndicatorItem>
+      <IndicatorItem id="89c32ffb-e30d-4009-b983-27d2f0d82a75" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.213.179</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eafb2ba3-3e84-4f2f-ba39-7b2c77f6d99d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.221.195</Content>
+      </IndicatorItem>
+      <IndicatorItem id="0368ddb9-fc64-446b-ab5f-a19dfaa4964d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.22.91.63</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c88e51aa-208e-46a6-a1c9-0de1a0d1f6ef" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.22.93.250</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ee1f62b8-5d27-4ad6-9959-5db426586031" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.227.171.205</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cf134a70-a3fe-416a-9248-1dbef95f7e21" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.232.68.246</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c5a39e3-5e4d-4062-8cde-c40d38ee7cb7" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.172.168.143</Content>
+      </IndicatorItem>
+      <IndicatorItem id="da638e0f-6bcf-4764-a0f6-de079b081752" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.172.181.55</Content>
+      </IndicatorItem>
+      <IndicatorItem id="acb65efb-6a1b-4c6c-a388-f0314d16cf80" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.99.6.205</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f9531985-b8b1-470d-90f7-9685b64b2aec" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">186.232.193.44</Content>
+      </IndicatorItem>
+      <IndicatorItem id="966463bf-e50e-47cc-ab38-e336cbbb728b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.206.97</Content>
+      </IndicatorItem>
+      <IndicatorItem id="02c7c18a-635f-4253-93af-8251acc50b7f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.209.8</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9a501916-f7d4-4992-8b22-d20233825c68" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.241.198</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5c8c4a96-80c8-4009-b941-42fe471716d8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.139.71</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f41e6af8-fa53-4e40-8566-954edff824ed" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">77.237.241.114</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a3a578a3-9275-4619-95cb-a4435a7116c2" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">103.56.61.130</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ca850d22-0568-4ec4-8100-c305c2f5c7a1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.219.238.24</Content>
+      </IndicatorItem>
+      <IndicatorItem id="327ad98d-2c63-43a0-8f7f-dd8b5f94b0ef" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.17.45</Content>
+      </IndicatorItem>
+      <IndicatorItem id="88db9d9d-110b-4438-abb4-5ee5d28d710e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.248.241.77</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7469aa48-d109-426f-8632-e3129871eb13" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">141.255.160.234</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ad071f45-e2a1-4b98-853a-0586aea2d61c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">146.190.119.189</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4bc4b053-9c45-420b-9c8e-4ee12e99de7c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.216.20.249</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c0975748-250b-4631-9a17-c76e3e856bff" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">157.230.186.51</Content>
+      </IndicatorItem>
+      <IndicatorItem id="7439862a-7642-4af1-b8a1-ea4bda4b86f5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.136.124</Content>
+      </IndicatorItem>
+      <IndicatorItem id="cf76624d-c975-4f8e-ab17-bbbc2ddb2143" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.144.68</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9fb6cd76-57d5-45e6-9d5c-d4dedefeaf49" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">161.97.148.193</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b089430e-406a-49dc-8d2f-64824c3c6ceb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.183.77</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e830da23-b3b3-4eaf-aad8-f480ca0c5edb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.220.56</Content>
+      </IndicatorItem>
+      <IndicatorItem id="29b58db0-deaf-4956-921e-27f6d87454ac" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.170.4</Content>
+      </IndicatorItem>
+      <IndicatorItem id="36db2c4a-cfd1-4d3f-8905-474016a021b6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">165.227.171.176</Content>
+      </IndicatorItem>
+      <IndicatorItem id="92cd8f14-e461-453a-8217-c07b94416a89" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.99.13.19</Content>
+      </IndicatorItem>
+      <IndicatorItem id="efa0f348-eeb2-405f-b0be-dd321e76110b" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">171.7.123.117</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c48ea79c-8894-4158-bd82-10a4a8e02e82" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">178.128.84.187</Content>
+      </IndicatorItem>
+      <IndicatorItem id="081d8778-8d2d-4c37-bf5b-586436b1aeac" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">178.211.139.188</Content>
+      </IndicatorItem>
+      <IndicatorItem id="202974d5-7e0c-4127-9494-166ab14260dd" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">180.13.76.189</Content>
+      </IndicatorItem>
+      <IndicatorItem id="aac9914d-1fa5-44db-99ee-981aa63f1d6f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.180.140.4</Content>
+      </IndicatorItem>
+      <IndicatorItem id="29687771-3260-4bef-aaec-106e9e9e22f6" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">111.231.28.112</Content>
+      </IndicatorItem>
+      <IndicatorItem id="340bc660-8ce6-4c07-ae11-6305f8df478d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.216.18.39</Content>
+      </IndicatorItem>
+      <IndicatorItem id="47d5bcb4-86b3-407b-a474-319352499826" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.216.20.249</Content>
+      </IndicatorItem>
+      <IndicatorItem id="f7af9e44-2ae9-4b97-b306-21ce45d1a399" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">195.62.32.114</Content>
+      </IndicatorItem>
+      <IndicatorItem id="5b4dcd65-0030-4d6f-affe-20e33b70f0f4" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">94.156.65.66</Content>
+      </IndicatorItem>
+      <IndicatorItem id="3eb84376-fa9a-47fa-9d26-3f8ab8f02883" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">134.209.243.222</Content>
+      </IndicatorItem>
+      <IndicatorItem id="11cbac76-18f0-4a63-bff3-145ddd576dd8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">144.126.150.98</Content>
+      </IndicatorItem>
+      <IndicatorItem id="d8c59433-650c-4d87-8093-203a2e73dcc5" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.107.111</Content>
+      </IndicatorItem>
+      <IndicatorItem id="10877aad-482c-46f4-ba59-e14aa53baac1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.90.221.195</Content>
+      </IndicatorItem>
+      <IndicatorItem id="ac852bee-e444-4cb1-9921-275784fc6b65" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">164.92.189.201</Content>
+      </IndicatorItem>
+      <IndicatorItem id="51a13fee-d931-46f2-880d-5eac383085b1" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">170.64.157.151</Content>
+      </IndicatorItem>
+      <IndicatorItem id="261db944-ba04-4fc8-81d7-894bc3a83549" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">178.128.95.222</Content>
+      </IndicatorItem>
+      <IndicatorItem id="e403f9a8-d443-4f55-9f5e-0c3a4155f3e8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.180.140.4</Content>
+      </IndicatorItem>
+      <IndicatorItem id="39edb7ab-2b56-415f-85be-571a8017f9fe" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">209.38.206.97</Content>
+      </IndicatorItem>
+      <IndicatorItem id="13905ee9-9f8f-4c49-9374-0767fca936fd" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.115.140</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6f14270c-ff9d-4cb7-8e13-e41dfadc6973" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">46.101.214.252</Content>
+      </IndicatorItem>
+      <IndicatorItem id="36561769-fac2-4ad4-87ae-c630d633bb22" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">79.124.58.138</Content>
+      </IndicatorItem>
+      <IndicatorItem id="80a71c7a-1311-4096-99fd-b759a6398716" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">103.173.227.187</Content>
+      </IndicatorItem>
+      <IndicatorItem id="23165d8f-2cac-454e-b1f3-56fb721b1157" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">104.152.52.140</Content>
+      </IndicatorItem>
+      <IndicatorItem id="450badc8-dbcd-479c-9a1b-20fbb4ed5fff" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">138.68.63.218</Content>
+      </IndicatorItem>
+      <IndicatorItem id="df3f1ea8-a1cb-4fa9-aad3-5f34f5bde22c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.7.16</Content>
+      </IndicatorItem>
+      <IndicatorItem id="122840a4-7b14-4114-9245-4a394d251ae3" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">159.89.80.175</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c9cf3294-3efe-441d-b239-c621cd5f5aba" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">167.99.145.204</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fd412638-d98a-4c0f-8ba9-8c208c8e526c" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">178.193.21.139</Content>
+      </IndicatorItem>
+      <IndicatorItem id="a9f042c3-9db2-421c-9bfa-165996a81cfc" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">179.43.133.242</Content>
+      </IndicatorItem>
+      <IndicatorItem id="00b01589-ed66-427e-ab90-0ce1501f6778" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">185.130.44.86</Content>
+      </IndicatorItem>
+      <IndicatorItem id="9be6e84e-650c-481f-919a-f98f7753cb37" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">37.114.32.223</Content>
+      </IndicatorItem>
+      <IndicatorItem id="09e7c830-7564-4854-b22e-a64af61d0785" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">37.114.63.106</Content>
+      </IndicatorItem>
+      <IndicatorItem id="634db307-0c63-4dfc-8034-e937f335596f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">39.109.126.254</Content>
+      </IndicatorItem>
+      <IndicatorItem id="49f16c5b-e1ce-4b9a-b0ab-1d758003489f" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.129.52</Content>
+      </IndicatorItem>
+      <IndicatorItem id="4650749e-a1b7-4dea-b0a3-fc6055124ddb" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.130.4</Content>
+      </IndicatorItem>
+      <IndicatorItem id="50e62f98-074c-4546-b510-f7ae506c6efe" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.156.130.6</Content>
+      </IndicatorItem>
+      <IndicatorItem id="51f045cc-1054-43fe-acd1-e3e0cdc65375" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.84.89.2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="bdbc65e7-8d18-4878-b3fe-75745cd98864" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.84.89.3</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fba28df7-8264-49ea-aa6c-578fc11530e0" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.95.147.211</Content>
+      </IndicatorItem>
+      <IndicatorItem id="6ae79f76-1974-46c7-85d0-c9152e95020e" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">5.42.84.98</Content>
+      </IndicatorItem>
+      <IndicatorItem id="eaac0495-9754-4b44-badc-a9c59e53b368" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">64.227.88.224</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c8e0d840-aacc-49b0-b83e-c6e4b14047ae" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">67.203.7.176</Content>
+      </IndicatorItem>
+      <IndicatorItem id="b1a82e66-3f72-4622-8f6a-565e23720f42" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.26.192.15</Content>
+      </IndicatorItem>
+      <IndicatorItem id="c80d0671-3aff-49d4-ab47-966f75d8051d" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">154.19.201.2</Content>
+      </IndicatorItem>
+      <IndicatorItem id="fdca3b59-10d0-43d6-826d-4ca982d2b8f8" condition="is">
+        <Context document="PortItem" search="PortItem/remoteIP" type="mir"/>
+        <Content type="IP">45.201.245.192</Content>
+      </IndicatorItem>
+    </Indicator>
+  </definition>
+</ioc>
