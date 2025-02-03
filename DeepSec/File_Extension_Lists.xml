@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Export type="ScanFileExtList" date="February 3, 2025 16:06" version="50.0.3415">
+	<ScanFileExtLists>
+		<ScanFileExtList id="1">
+			<TBUID>1D4ABC41-42A7-FBF3-497D-64E2B19FD654</TBUID>
+			<Name>Scan File Extension List (Windows)</Name>
+			<Description></Description>
+			<Items>ARJ,BAT,BIN,BOO  ,CAB  ,CHM  ,CLA  ,CLASS  ,COM  ,CSC  ,DLL  ,DOC  ,DOT  ,DRV  ,EML  ,EXE  ,GZ  ,HLP  ,HTA  ,HTM  ,HTML  ,HTT  ,INI  ,JAR  ,JPEG  ,JPG  ,JS  ,JSE  ,LNK  ,LZH  ,MDB  ,MPD  ,MPP  ,MPT  ,MSG  ,MSO  ,NWS  ,OCX  ,OFT  ,OVL  ,PDF  ,PHP  ,PIF  ,PL  ,POT  ,PPS  ,PPT  ,PRC  ,RAR  ,REG  ,RTF  ,SCR  ,SHS  ,SYS  ,TAR  ,VBE  ,VBS  ,VSD  ,VSS  ,VST  ,VXD  ,WML  ,WSF  ,XLA  ,XLS  ,XLT  ,XML  ,Z  ,ZIP  ,ASP  ,ACCDB  ,DOCX  ,DOCM  ,DOTX  ,DOTM  ,PPTX  ,PPTM  ,POTX  ,POTM  ,PPAM  ,PPSM  ,PPSX  ,XLSX  ,XLSM  ,XLTX  ,XLTM  ,XLSB  ,XLAM</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileExtList>
+		<ScanFileExtList id="38">
+			<TBUID></TBUID>
+			<Name>Trend Micro Exchange 2019 File Extension</Name>
+			<Description>https://learn.microsoft.com/en-us/Exchange/antispam-and-antimalware/windows-antivirus-software?view=exchserver-2019</Description>
+			<Items>## Exchange 2019,config,chk,edb,jfm,jrs,log,que,dsc,txt,cfg,grxml,lzx</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileExtList>
+		<ScanFileExtList id="39">
+			<TBUID></TBUID>
+			<Name>Trend Micro Hyper-V File Extension</Name>
+			<Description>https://learn.microsoft.com/en-US/troubleshoot/windows-server/virtualization/antivirus-exclusions-for-hyper-v-hosts</Description>
+			<Items>## Hyper-V,vhd,vhdx,avhd,avhdx,vhds,vhdpmem,iso,rct,mrt,vsv,bin,xml,vmcx,vmrs,vmgs</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileExtList>
+		<ScanFileExtList id="34">
+			<TBUID></TBUID>
+			<Name>Trend Micro Linux OS File Extension</Name>
+			<Description>Documentation to general Linux exclusions
+
+https://success.trendmicro.com/dcx/s/solution/1115327-recommended-scan-exclusions-for-deep-security-in-linux?language=en_US&amp;sfdcIFrameOrigin=null</Description>
+			<Items># Documentation to general Linux exclusions below,# https://success.trendmicro.com/dcx/s/solution/1115327-recommended-scan-exclusions-for-deep-security-in-linux?language=en_US&amp;sfdcIFrameOrigin=null</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileExtList>
+		<ScanFileExtList id="36">
+			<TBUID></TBUID>
+			<Name>Trend Micro Mac OS File Extension</Name>
+			<Description></Description>
+			<Items></Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileExtList>
+		<ScanFileExtList id="35">
+			<TBUID></TBUID>
+			<Name>Trend Micro SQL File Extension</Name>
+			<Description></Description>
+			<Items>## SQL,mdf,ldf,ndf,bak,trn</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileExtList>
+		<ScanFileExtList id="37">
+			<TBUID></TBUID>
+			<Name>Trend Micro Windows OS File Extension</Name>
+			<Description></Description>
+			<Items>## Trend Micro Windows Recommendation,pst,mdf,ldf,db</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileExtList>
+	</ScanFileExtLists>
+</Export>

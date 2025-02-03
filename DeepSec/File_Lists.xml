@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Export type="ScanFileList" date="February 3, 2025 16:06" version="50.0.3415">
+	<ScanFileLists>
+		<ScanFileList id="41">
+			<TBUID></TBUID>
+			<Name>exclude mui</Name>
+			<Description></Description>
+			<Items>*.mui&lt;:&gt;*.etl&lt;:&gt;*.LOG1&lt;:&gt;*.LOG&lt;:&gt;*.xml&lt;:&gt;*.tmp&lt;:&gt;*.db&lt;:&gt;C:\Windows\System32\conhost.exe&lt;:&gt;C:\Windows\SysWOW64\win32u.dll&lt;:&gt;C:\Windows\SysWOW64\ntdll.dll&lt;:&gt;C:\Windows\SysWOW64\sfc.dll&lt;:&gt;C:\Windows\SysWOW64\tzres.dll&lt;:&gt;C:\Windows\System32\NetSetupEngine.dll&lt;:&gt;*.cdp&lt;:&gt;*.pf</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="1">
+			<TBUID>DFE037D4-7B72-4809-BC3C-FD60F3099952</TBUID>
+			<Name>File Exclusions (Windows)</Name>
+			<Description></Description>
+			<Items>${windir}\Prefetch*.pf&lt;:&gt;${Systemdrive}\inetpub\logs*.log&lt;:&gt;${windir}\System32\winevt\logs*.evtx&lt;:&gt;${windir}\SoftwareDistribution\DataStore\DataStore.edb&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\*.csv&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\*.xml&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\*.config&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\*.blg&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\*.log&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\*.csvtmp&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\*.ps1xml&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\*.ulstest&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\*.usage</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="6">
+			<TBUID>FD67238C-C3A0-40CB-B400-02DB36A22E14</TBUID>
+			<Name>Trend Micro Apex Central Exclusion List (Windows)</Name>
+			<Description></Description>
+			<Items>C:\Program Files (x86)\Trend Micro\Control Manager\WebUI\WebApp\widget\repository\widgetPool\product\TMSM\TMSMStatus.db-journal&lt;:&gt;${windir}\SoftwareDistribution\DataStore\DataStore.edb</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="5">
+			<TBUID>D626EFD1-0A90-4E62-A7FF-F1A1C5A3C622</TBUID>
+			<Name>Trend Micro Apex One Server Exclusion List (Windows)</Name>
+			<Description></Description>
+			<Items>C:\Program Files (x86)\Trend Micro\OfficeScan\Addon\TMSM\debug.log&lt;:&gt;C:\Program Files (x86)\Trend Micro\OfficeScan\Addon\TMSM\Web\TMSMConsoleChannel*.log&lt;:&gt;C:\Program Files (x86)\Trend Micro\OfficeScan\Addon\TMSM\Web\TMSMClientChannel\TMSM_ClientChannel.log&lt;:&gt;C:\Program Files (x86)\Trend Micro\OfficeScan\Addon\TMSM\AU_Data\AU_Log\TmuDump.txt&lt;:&gt;C:\Program Files (x86)\Trend Micro\OfficeScan\iServiceSrv\hiVP*.log&lt;:&gt;C:\Program Files (x86)\Trend Micro\OfficeScan\iServiceSrv\iES\debug.log</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="4">
+			<TBUID>8C38D1E7-C739-4083-9B61-B0A731C26BFA</TBUID>
+			<Name>Trend Micro Endpoint Basecamp Exclusion List (Windows)</Name>
+			<Description></Description>
+			<Items>C:\Program Files (x86)\Trend Micro\Endpoint Basecamp\EndpointBasecamp.exe</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="37">
+			<TBUID></TBUID>
+			<Name>Trend Micro Exchange 2019 Process Image Files Windows</Name>
+			<Description>https://learn.microsoft.com/en-us/Exchange/antispam-and-antimalware/windows-antivirus-software?view=exchserver-2019</Description>
+			<Items>## Exchange 2019&lt;:&gt;${windir}\System32\Dsamain.exe&lt;:&gt;${windir}\System32\inetsrv\inetinfo.exe&lt;:&gt;&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\ComplianceAuditService.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\EdgeTransport.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\HostController\hostcontrollerservice.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.AntispamUpdateSvc.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.Diagnostics.Service.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.Directory.TopologyService.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.EdgeCredentialSvc.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.EdgeSyncSvc.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.Notifications.Broker.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\wsbexchange.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.ProtectedServiceHost.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.RPCClientAccess.Service.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.Search.Service.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.Servicehost.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.Store.Service.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Microsoft.Exchange.Store.Worker.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\UmService.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\UmWorkerProcess.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeCompliance.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeDagMgmt.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeDelivery.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeFrontendTransport.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeHMHost.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeHMWorker.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeMailboxAssistants.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeMailboxReplication.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeRepl.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeSubmission.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeTransport.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeTransportLogSearch.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\MSExchangeThrottling.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\Runtime\1.0\Noderunner.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\OleConverter.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Bin\Search\Ceres\ParserServer\ParserServer.exe&lt;:&gt;&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\Bin\ScanEngineTest.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\Bin\ScanningProcess.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\Bin\fms.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\Bin\UpdateService.exe&lt;:&gt;&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\agents\Hygiene\Microsoft.Exchange.ContentFilter.Wrapper.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\PopImap\Microsoft.Exchange.Imap4.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\ClientAccess\PopImap\Microsoft.Exchange.Imap4service.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\PopImap\Microsoft.Exchange.Pop3.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\ClientAccess\PopImap\Microsoft.Exchange.Pop3service.exe&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\FrontEnd\CallRouter\Microsoft.Exchange.UM.CallRouter.exe</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="34">
+			<TBUID></TBUID>
+			<Name>Trend Micro File list Linux</Name>
+			<Description>Documentation to general Linux exclusions
+
+https://success.trendmicro.com/dcx/s/solution/1115327-recommended-scan-exclusions-for-deep-security-in-linux?language=en_US&amp;sfdcIFrameOrigin=null</Description>
+			<Items># Documentation to general Linux exclusions below&lt;:&gt;# https://success.trendmicro.com/dcx/s/solution/1115327-recommended-scan-exclusions-for-deep-security-in-linux?language=en_US&amp;sfdcIFrameOrigin=null</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="35">
+			<TBUID></TBUID>
+			<Name>Trend Micro File list Mac OS</Name>
+			<Description></Description>
+			<Items></Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="36">
+			<TBUID></TBUID>
+			<Name>Trend Micro File list Windows</Name>
+			<Description></Description>
+			<Items>## Trend Micro Recommendations&lt;:&gt;#Group Policy files&lt;:&gt;C:\ProgramData\NTUser.pol&lt;:&gt;${windir}\System32\GroupPolicy\User\registry.pol&lt;:&gt;${windir}\System32\GroupPolicy\Machine\registry.pol&lt;:&gt;&lt;:&gt;#Process exclusions for built-in operating system files&lt;:&gt;${Windir}\System32\dfsr.exe&lt;:&gt;${Windir}\System32\dfsrs.exe&lt;:&gt;&lt;:&gt;#Windows Update files or Automatic Update files&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\DataStore.edb&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\Logs\Edb*.log&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\Logs\Res1.log&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\Logs\Res2.log&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\Logs\Edb.chk&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\Logs\tmp.edb&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\Logs\hiberfil.sys&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\Logs\pagefile.sys&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\Logs\Edbres00001.jrs&lt;:&gt;${Windir}\SoftwareDistribution\Datastore\Logs\Edbres00002.jrs&lt;:&gt;&lt;:&gt;# Windows Security files&lt;:&gt;${Windir}\Security\*.edb&lt;:&gt;${Windir}\Security\*.sdb&lt;:&gt;${Windir}\Security\*.log&lt;:&gt;${Windir}\Security\*.chk&lt;:&gt;${windir}\Prefetch*.pf&lt;:&gt;&lt;:&gt;#WINS files&lt;:&gt;${Windir}\System32\Wins\*\*.chk&lt;:&gt;${Windir}\System32\Wins\*\*.log&lt;:&gt;${Windir}\System32\Wins\*\*.mdb&lt;:&gt;&lt;:&gt;#other&lt;:&gt;C:\ProgramData\Microsoft\Search\Data\Applications\Windows\windows.edb&lt;:&gt;${Systemdrive}\inetpub\logs*.log&lt;:&gt;${windir}\System32\winevt\logs*.evtx</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="40">
+			<TBUID></TBUID>
+			<Name>Trend Micro File list Windows AD</Name>
+			<Description></Description>
+			<Items>## AD&lt;:&gt;&lt;:&gt;#The NTDS working folder&lt;:&gt;${Windir}\Ntds\Temp.edb&lt;:&gt;${Windir}\Ntds\Edb.chk&lt;:&gt;&lt;:&gt;#NTDS database files&lt;:&gt;${Windir}\Ntds\ntds.dit&lt;:&gt;${Windir}\Ntds\ntds.pat&lt;:&gt;&lt;:&gt;# The AD DS transaction log files&lt;:&gt;${Windir}\Ntds\EDB*.log&lt;:&gt;${Windir}\Ntds\Res*.log&lt;:&gt;${Windir}\Ntds\Edb*.jrs&lt;:&gt;${Windir}\Ntds\Ntds*.pat&lt;:&gt;${Windir}\Ntds\TEMP.edb</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="38">
+			<TBUID></TBUID>
+			<Name>Trend Micro File list Windows SQL</Name>
+			<Description></Description>
+			<Items>## SQL&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\*\MSSQL\Binn\SQLServr.exe&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\*\Reporting Services\ReportServer\Bin\ReportingServicesService.exe&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\*\OLAP\Bin\MSMDSrv.exe&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\*\Shared\SQLDumper.exe</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="39">
+			<TBUID></TBUID>
+			<Name>Trend Micro Process Image Files Hyper-V</Name>
+			<Description>https://learn.microsoft.com/en-US/troubleshoot/windows-server/virtualization/antivirus-exclusions-for-hyper-v-hosts</Description>
+			<Items>## Hyper-V&lt;:&gt;${windir}\System32\Vmms.exe&lt;:&gt;${windir}\System32\Vmwp.exe&lt;:&gt;${windir}\System32\Vmsp.exe&lt;:&gt;${windir}\System32\Vmcompute.exe</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="67">
+			<TBUID></TBUID>
+			<Name>Trend Micro Process Image Files IIS Web</Name>
+			<Description></Description>
+			<Items># IIS Web&lt;:&gt;&lt;:&gt;# Process exclusions for the Web Server role&lt;:&gt;${Windir}\system32\inetsrv\w3wp.exe&lt;:&gt;${Windir}\SysWOW64\inetsrv\w3wp.exe&lt;:&gt;${Systemdrive}\PHP5433\php-cgi.exe</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="2">
+			<TBUID>744ED36D-37EB-9956-D745-BE1C9FD7BCCB</TBUID>
+			<Name>Trend Micro Process Image Files Windows</Name>
+			<Description></Description>
+			<Items>## Trend Micro Windows Recommendation&lt;:&gt;C:\Program Files\Citrix\User Profile Manager\UserProfileManager.exe&lt;:&gt;C:\Program Files\Citrix\Server Resource Management\Memory Optimization Management\Program\CtxSFOSvc.exe&lt;:&gt;C:\Program Files\Windows Defender Advanced Threat Protection\MsSense.exe&lt;:&gt;C:\Program Files\Windows Defender Advanced Threat Protection\SenseCncProxy.exe&lt;:&gt;C:\Program Files\Windows Defender Advanced Threat Protection\SenseSampleUploader.exe&lt;:&gt;C:\Program Files\Windows Defender Advanced Threat Protection\SenseIR.exe&lt;:&gt;C:\Program Files\Windows Defender Advanced Threat Protection\SenseCM.exe&lt;:&gt;C:\Program Files\Windows Defender\MsMpEng.exe&lt;:&gt;C:\Program Files\Windows Defender\MpCmdRun.exe&lt;:&gt;C:\Program Files\Windows Defender\NisSrv.exe</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="3">
+			<TBUID>E9497F9A-30C9-4491-B2F7-B36165F52399</TBUID>
+			<Name>Trend Micro Zero Trust Secure Access Exclusion List (Windows)</Name>
+			<Description></Description>
+			<Items>C:\ProgramData\Trend Micro\ZTSAinstaller\ZTSADownloader.exe&lt;:&gt;C:\ProgramData\Trend Micro\ZTSAinstaller\ZTSAInstaller.exe&lt;:&gt;C:\Program Files\Trend Micro\ZTSA\ZTSAUpdate.exe&lt;:&gt;C:\Program Files\Trend Micro\ZTSA\ZTSAMonitorService.exe</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+		<ScanFileList id="7">
+			<TBUID>432C5496-B9B1-D525-63C4-EBD22D5C00C1</TBUID>
+			<Name>Trend Vision One Endpoint Sensor Exclusion List</Name>
+			<Description></Description>
+			<Items>C:\Program Files (x86)\Trend Micro\Endpoint Basecamp\EndpointBasecamp.exe&lt;:&gt;C:\Program Files (x86)\Trend Micro\Endpoint Basecamp\modules\ceta\CETASvc.exe&lt;:&gt;C:\Program Files (x86)\Trend Micro\Endpoint Basecamp\modules\wsc\WSCommunicator.exe&lt;:&gt;C:\Program Files\Trend Micro\Cloud Endpoint\CloudEndpointService.exe&lt;:&gt;C:\Program Files (x86)\Trend Micro\EndpointResponse\ResponseService.exe&lt;:&gt;C:\Program Files\Trend Micro\ZTSA\ZTSAMonitorService.exe&lt;:&gt;C:\Program Files\Trend Micro\ZTSA\ZTSAWindows.exe&lt;:&gt;/opt/TrendMicro/EndpointBasecamp/bin/tmxbc&lt;:&gt;/opt/TrendMicro/vls_agent/vls_agent&lt;:&gt;/opt/TrendMicro/vls_agent/vls_am&lt;:&gt;/opt/TrendMicro/vls_agent/vlsa</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanFileList>
+	</ScanFileLists>
+</Export>

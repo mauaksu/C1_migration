@@ -1,0 +1,4968 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Export type="PacketFilter" date="February 3, 2025 16:05" version="50.0.3415">
+	<PacketFilters>
+		<PacketFilter id="2">
+			<TBUID></TBUID>
+			<Name>Allow Deep Security as a Service inbound communications</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>1</SourceIPType>
+			<SourceIP>54.221.196.0</SourceIP>
+			<SourceIPMask>255.255.255.0</SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>1</SourcePortType>
+			<SourcePorts>4118</SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="38">
+			<TBUID></TBUID>
+			<Name>Allow ICMP type 3 code 4</Name>
+			<Description>This ICMP packet is used for MTU path negotiation</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>4</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>1</ProtocolType>
+			<Protocol>1</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>false</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>3</IcmpType>
+			<IcmpCode>4</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="70">
+			<TBUID>2809A63A-BA1C-46BB-2F97-71D42EF9ECC4</TBUID>
+			<Name>Allow PPPOE Discovery</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>255</FrameType>
+			<Frame>34915</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="71">
+			<TBUID>95CB427F-AAA1-41AE-0E35-1963829393AA</TBUID>
+			<Name>Allow PPPOE Session</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>255</FrameType>
+			<Frame>34916</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="6">
+			<TBUID>FF3DF26D-B89E-AE0F-09CD-625E9890A5A6</TBUID>
+			<Name>Allow solicited ICMP replies</Name>
+			<Description>ICMP stateful must be enabled</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>1</ProtocolType>
+			<Protocol>1</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="5">
+			<TBUID>76ED6484-D816-E263-242B-02757A7C61C8</TBUID>
+			<Name>Allow solicited TCP/UDP replies</Name>
+			<Description>UDP stateful and TCP stateful must be enabled</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>false</AnyFlags>
+			<TcpFlags>2</TcpFlags>
+			<TcpNot>true</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="9">
+			<TBUID>97931DC8-F5CA-EB01-4D8A-DD9271A53C71</TBUID>
+			<Name>ARP</Name>
+			<Description>Allow incoming ARP traffic</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>2</FrameType>
+			<Frame>2054</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="62">
+			<TBUID>D24758CE-DE18-BCEC-7521-B497A8A78C1B</TBUID>
+			<Name>Computer Associates Unicenter</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>112</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="3">
+			<TBUID>51F0882A-9876-027A-A439-5929F017D08B</TBUID>
+			<Name>Deep Security Agent</Name>
+			<Description>Allow incoming traffic to Deep Security Agent</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>75</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="17">
+			<TBUID>11D56577-0ED5-CA57-893A-D19DC83231D5</TBUID>
+			<Name>Deep Security Manager</Name>
+			<Description>Allow incoming traffic to Deep Security Manager</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>77</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="8">
+			<TBUID>ED0905B1-28E6-5C4C-0614-14A8D657AAB6</TBUID>
+			<Name>Deny Internal IP Ranges</Name>
+			<Description>Ingress filter to deny incoming spoofed packets</Description>
+			<Type>1</Type>
+			<FilterAction>2</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>4</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>3</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID>1</SourceIPListID>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="7">
+			<TBUID>88079CC5-0E1C-7AA2-BE8C-F076D5CDA793</TBUID>
+			<Name>DHCP Client</Name>
+			<Description>Allow DHCP Offer traffic to a DHCP Client</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>92</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>6</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>93</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="11">
+			<TBUID>E7BEDF79-7CA1-0E96-76B8-015DFD848AAE</TBUID>
+			<Name>DHCP Server</Name>
+			<Description>Allow incoming DHCP requests to a DHCP server</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>93</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>92</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="29">
+			<TBUID>24F319CF-066E-FB15-8E9E-B33DCE495B0B</TBUID>
+			<Name>DNS Server</Name>
+			<Description>Allow incoming DNS requests to a DNS server</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>104</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="24">
+			<TBUID>3E0244AC-B6CF-647D-6CEF-A8D6F8C30AE4</TBUID>
+			<Name>Domain Client (TCP)</Name>
+			<Description>Allow incoming traffic from the domain controller</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>3</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID>2</SourceIPListID>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>80</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="27">
+			<TBUID>D6650A63-3C7B-EB48-AC7B-00027429FA38</TBUID>
+			<Name>Domain Client (UDP)</Name>
+			<Description>Allow incoming traffic from the domain controller</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>3</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID>2</SourceIPListID>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>98</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="19">
+			<TBUID>4CF14F54-CD60-84BA-08E2-7E493B28BD51</TBUID>
+			<Name>Domain Controller (TCP)</Name>
+			<Description>Allow incoming traffic to a Domain Controller</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>79</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="20">
+			<TBUID>1C9F79CE-6581-594A-6095-A96F20AC01E0</TBUID>
+			<Name>Domain Controller (UDP)</Name>
+			<Description>Allow incoming traffic to a Domain Controller</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>97</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="13">
+			<TBUID>2985B5E9-388E-4AB5-FBBF-22D4831D5BAF</TBUID>
+			<Name>FTP Server</Name>
+			<Description>Allow incoming traffic to an FTP Server</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>95</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="72">
+			<TBUID>096D4B44-9441-A36F-A14F-4D6781B0B938</TBUID>
+			<Name>Generic Routing Encapsulation</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>255</ProtocolType>
+			<Protocol>47</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="30">
+			<TBUID>EA69A708-420D-799B-E334-704E575964FF</TBUID>
+			<Name>ICMP Echo Request</Name>
+			<Description>Allow incoming Ping requests</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>1</ProtocolType>
+			<Protocol>1</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>false</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>8</IcmpType>
+			<IcmpCode>0</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="16">
+			<TBUID>12FD348C-7B46-585A-1CA4-C992363C571C</TBUID>
+			<Name>IDENT</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>120</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="61">
+			<TBUID>713BB52A-4C77-66DB-897F-EDDD7AF26CF4</TBUID>
+			<Name>IMAP Server</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>116</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="59">
+			<TBUID>FE0FDD94-CB9F-6C34-8673-C1475B6DBD36</TBUID>
+			<Name>IPSec Authentication</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>255</ProtocolType>
+			<Protocol>51</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="1">
+			<TBUID>D01F5E2B-FB4F-FEE2-25DB-16503392AF8E</TBUID>
+			<Name>IPSec Encryption</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>255</ProtocolType>
+			<Protocol>50</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="58">
+			<TBUID>62E9F912-2E3E-841A-C74F-AB1DA03F37BF</TBUID>
+			<Name>IPSec IKE</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>102</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="100">
+			<TBUID></TBUID>
+			<Name>Log Only - Incoming</Name>
+			<Description>Log all incoming traffic</Description>
+			<Type>1</Type>
+			<FilterAction>0</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>4</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="101">
+			<TBUID></TBUID>
+			<Name>Log Only - outgoing</Name>
+			<Description>Log all outgoing traffic</Description>
+			<Type>1</Type>
+			<FilterAction>0</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>4</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="18">
+			<TBUID>3B60F6BC-1577-6FD2-6657-BA82B8381EB2</TBUID>
+			<Name>Microsoft Exchange Server</Name>
+			<Description>Allow incoming traffic to an Microsoft Exchange Server</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>82</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="14">
+			<TBUID>8A8BA272-7043-4357-DDCF-2D196FD62158</TBUID>
+			<Name>Microsoft SQL Server</Name>
+			<Description>Allow incoming TCP traffic to a Microsoft SQL server</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>101</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="64">
+			<TBUID>E11D0A4C-19E7-DA25-8990-C5538DF727DD</TBUID>
+			<Name>MySQL Server</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>117</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="10">
+			<TBUID>F7B54805-7B9F-DB9D-5742-3237235A75D9</TBUID>
+			<Name>NetBios Name Service</Name>
+			<Description>For hosts that rely on NetBios for name resolution</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>103</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>103</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="31">
+			<TBUID>7545B91B-02D7-3239-C66D-19DD8E7E5316</TBUID>
+			<Name>Network Time Protocol</Name>
+			<Description>Allow Network Time Protocol traffic</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>119</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="37">
+			<TBUID>E3783994-0195-B1A8-0E3B-5599DB2A7F5C</TBUID>
+			<Name>Off Domain Enforcement</Name>
+			<Description>Log packets blocked due to Off Domain Enforcement policy</Description>
+			<Type>1</Type>
+			<FilterAction>2</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>0</FrameType>
+			<Frame>0</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="69">
+			<TBUID>C32144AC-F282-FACE-C5F0-74B743DA3496</TBUID>
+			<Name>Off Domain Exceptions - ARP</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>2</FrameType>
+			<Frame>2054</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="73">
+			<TBUID>E20AF9F7-B72C-5282-9F64-2931DE7B1BFA</TBUID>
+			<Name>Off Domain Exceptions - DHCP Client</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>93</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="26">
+			<TBUID>633D1474-2882-8A2D-E8A8-1ACD87EEF581</TBUID>
+			<Name>Off Domain Exceptions - DNS</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>104</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="68">
+			<TBUID>EA753C19-9CF9-5345-4826-16BA69CEAF98</TBUID>
+			<Name>Off Domain Exceptions - Domain Client (TCP)</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>2</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>26</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="39">
+			<TBUID>ECBFE6DA-D732-D9C4-1AFA-EAA46C9C5585</TBUID>
+			<Name>Off Domain Exceptions - Domain Client (UDP)</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>2</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>26</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="40">
+			<TBUID>E76FBF81-5227-7A24-CC70-870DC486CC8B</TBUID>
+			<Name>Off Domain Exceptions - GRE</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>255</ProtocolType>
+			<Protocol>47</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>7</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="41">
+			<TBUID>77362FF0-890B-F5A3-4D32-EDB89FDD8908</TBUID>
+			<Name>Off Domain Exceptions - HTTP(S)</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>3</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>78</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="42">
+			<TBUID>8B9D797F-D02F-1B5C-E8A3-7EAD09FCBFD2</TBUID>
+			<Name>Off Domain Exceptions - ICMP Echo Request</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>1</ProtocolType>
+			<Protocol>1</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="43">
+			<TBUID>C5F9FA37-20A3-DC31-8C2C-61C4AD518B7A</TBUID>
+			<Name>Off Domain Exceptions - IPSec Encryption</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>255</ProtocolType>
+			<Protocol>50</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>7</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="44">
+			<TBUID>936CA077-ACB2-7047-5191-3B2D19271470</TBUID>
+			<Name>Off Domain Exceptions - VPN Tunnel</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>7</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>89</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="45">
+			<TBUID>F6CF8B43-4397-302D-CC6F-7312C948B895</TBUID>
+			<Name>Off Domain Exceptions - Wireless Authentication</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>255</FrameType>
+			<Frame>34958</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>3</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="15">
+			<TBUID>3DB38575-3EE9-9A03-8E33-7A5A41AF2426</TBUID>
+			<Name>Oracle SQL Server</Name>
+			<Description>Allow incoming traffic to an Oracle SQL server</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>118</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="60">
+			<TBUID>E14E6CD8-24CE-201C-3DDE-C52E50A40A8B</TBUID>
+			<Name>POP3 Server</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>109</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="33">
+			<TBUID>F9EFA2EE-A8A8-9D54-11E9-24BBECABC4C7</TBUID>
+			<Name>Remote Access RDP</Name>
+			<Description>Allow remote access to machines</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>76</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="23">
+			<TBUID>B1123D1C-5E70-55E0-10E1-610BEDA876A2</TBUID>
+			<Name>Remote Access SSH</Name>
+			<Description>Allow remote access to machines</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>91</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="36">
+			<TBUID>DF43C934-F3AE-A63C-F925-C0898D1DD408</TBUID>
+			<Name>Remote Domain Enforcement (Split Tunnel)</Name>
+			<Description>Log packets blocked due to Remote Domain Enforcement policy</Description>
+			<Type>1</Type>
+			<FilterAction>2</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>7</DestinationIPListID>
+			<DestinationIPNot>true</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>2</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="35">
+			<TBUID>CCFC65EA-C13D-0D16-885E-AC5A287ED41C</TBUID>
+			<Name>Remote Domain Exceptions</Name>
+			<Description>When remotely connected to domain only corporate traffic is allowed</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>4</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>2</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="46">
+			<TBUID>6FFA41E1-8D11-88C6-2C3D-9D2722485D00</TBUID>
+			<Name>Remote Domain Exceptions - ARP</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>2</FrameType>
+			<Frame>2054</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>2</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="47">
+			<TBUID>A10D2063-604B-BF0F-CA49-D0369D4F2C4F</TBUID>
+			<Name>Remote Domain Exceptions - DNS</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>104</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>2</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="48">
+			<TBUID>93C84D2B-DF6D-B0D2-E4AD-D2902947FF04</TBUID>
+			<Name>Remote Domain Exceptions - GRE</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>255</ProtocolType>
+			<Protocol>47</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>7</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>2</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="49">
+			<TBUID>539E9DDC-5C10-8D3C-6893-971DAA6A060C</TBUID>
+			<Name>Remote Domain Exceptions - ICMP Echo Request</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>1</ProtocolType>
+			<Protocol>1</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>2</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="50">
+			<TBUID>6F9F0FE2-1D56-D9F2-182A-E85AA2FC231D</TBUID>
+			<Name>Remote Domain Exceptions - IPSec Encryption</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>255</ProtocolType>
+			<Protocol>50</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>7</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>2</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="51">
+			<TBUID>94643EF4-4D2E-7E55-CB07-1458C32A4194</TBUID>
+			<Name>Remote Domain Exceptions - VPN Tunnel</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>3</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID>7</DestinationIPListID>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>89</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>2</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="34">
+			<TBUID>79DD2E82-6C75-1911-7430-B55B60ECA6BB</TBUID>
+			<Name>Restricted Interface Enforcement</Name>
+			<Description>Log packets blocked due to Restricted Interface Enforcement policy</Description>
+			<Type>1</Type>
+			<FilterAction>2</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>0</FrameType>
+			<Frame>0</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>1</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="25">
+			<TBUID>CC568246-2598-089A-1BE1-71ADEB6714E3</TBUID>
+			<Name>Restricted Interface Exceptions - ARP Incoming</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>2</FrameType>
+			<Frame>2054</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>1</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="52">
+			<TBUID>AC81FA6F-671D-FC37-A0D7-FF4F4174E49C</TBUID>
+			<Name>Restricted Interface Exceptions - ARP Outgoing</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>2</FrameType>
+			<Frame>2054</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>1</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="53">
+			<TBUID>33E79744-A0A9-1888-6243-75C86013ACD2</TBUID>
+			<Name>Restricted Interface Exceptions - DHCP Client Incoming</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>92</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>1</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="54">
+			<TBUID>7028A10F-CA0B-1304-F3C5-502D9A4CF1BC</TBUID>
+			<Name>Restricted Interface Exceptions - DHCP Client Outgoing</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>93</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>1</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="67">
+			<TBUID>724D5017-7BF8-E969-6016-77826CF86043</TBUID>
+			<Name>Restricted Interface Exceptions - Netbios Name Service Incoming</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>103</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>103</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>1</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="57">
+			<TBUID>871A3BE2-139C-07C0-D12A-4A2E36B0ED10</TBUID>
+			<Name>Restricted Interface Exceptions - Netbios Name Service Outgoing</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>6</ProtocolType>
+			<Protocol>17</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>3</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID>103</SourcePortListID>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>103</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>1</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="55">
+			<TBUID>D6FD129E-B144-8637-A552-8F7C9DA4C6F8</TBUID>
+			<Name>Restricted Interface Exceptions - Wireless Authentication Incoming</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>255</FrameType>
+			<Frame>34958</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>1</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="56">
+			<TBUID>0646837D-5B88-6FDF-663D-4A47E2B5631C</TBUID>
+			<Name>Restricted Interface Exceptions - Wireless Authentication Outgoing</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>2</PacketDirection>
+			<FrameType>255</FrameType>
+			<Frame>34958</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID>1</RuleContextID>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="28">
+			<TBUID>F21787EF-C364-1EDE-B041-14C0CEDB486D</TBUID>
+			<Name>SMTP Server</Name>
+			<Description>Allow incoming TCP traffic to an SMTP Server</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>114</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="63">
+			<TBUID>6FB783C5-EAF6-1D78-E072-D1B67A91A050</TBUID>
+			<Name>Veritas</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>108</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="4">
+			<TBUID>4498D0D0-09A1-BFCF-182F-BD1292A3EC3E</TBUID>
+			<Name>VMware vCenter Server</Name>
+			<Description>Allow incoming traffic to VMware vCenter Server</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>88</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="22">
+			<TBUID>07391FB2-3F84-4153-1CD0-216F71B67C07</TBUID>
+			<Name>Web Server</Name>
+			<Description>Allow incoming TCP traffic to a Web Server</Description>
+			<Type>1</Type>
+			<FilterAction>1</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>0</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>4</ProtocolType>
+			<Protocol>6</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>78</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="32">
+			<TBUID>19A069D6-8BD8-F5BF-0EAC-20C4B335A36A</TBUID>
+			<Name>Windows File Sharing</Name>
+			<Description>Allow file sharing traffic</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>100</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="21">
+			<TBUID>39B0E00A-A4D1-9EFE-19B5-75313D63C780</TBUID>
+			<Name>WINS</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>110</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="65">
+			<TBUID>B1E945CA-C525-24F6-9AD2-10299773DD03</TBUID>
+			<Name>WINS Registration</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>115</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="66">
+			<TBUID>6A1CDB37-5164-EA2F-0B0B-8A3E2936826F</TBUID>
+			<Name>WINS Replication</Name>
+			<Description></Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>1</FrameType>
+			<Frame>2048</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>10</ProtocolType>
+			<Protocol>4358</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>3</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID>111</DestinationPortListID>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+		<PacketFilter id="12">
+			<TBUID>19CDBA0B-8473-A501-72EF-413FEA53A28F</TBUID>
+			<Name>Wireless Authentication</Name>
+			<Description>Allow wireless authentication traffic</Description>
+			<Type>1</Type>
+			<FilterAction>3</FilterAction>
+			<DisabledLog>false</DisabledLog>
+			<Priority>2</Priority>
+			<PacketDirection>1</PacketDirection>
+			<FrameType>255</FrameType>
+			<Frame>34958</Frame>
+			<FrameNot>false</FrameNot>
+			<ProtocolType>0</ProtocolType>
+			<Protocol>0</Protocol>
+			<ProtocolNot>false</ProtocolNot>
+			<SourceIPType>0</SourceIPType>
+			<SourceIP></SourceIP>
+			<SourceIPMask></SourceIPMask>
+			<SourceIPRangeFrom></SourceIPRangeFrom>
+			<SourceIPRangeTo></SourceIPRangeTo>
+			<SourceIPListID isNull="true"/>
+			<SourceIPNot>false</SourceIPNot>
+			<SourceMACType>0</SourceMACType>
+			<SourceMAC></SourceMAC>
+			<SourceMACListID isNull="true"/>
+			<SourceMACNot>false</SourceMACNot>
+			<SourcePortType>0</SourcePortType>
+			<SourcePorts></SourcePorts>
+			<SourcePortListID isNull="true"/>
+			<SourcePortNot>false</SourcePortNot>
+			<DestinationIPType>0</DestinationIPType>
+			<DestinationIP></DestinationIP>
+			<DestinationIPMask></DestinationIPMask>
+			<DestinationIPRangeFrom></DestinationIPRangeFrom>
+			<DestinationIPRangeTo></DestinationIPRangeTo>
+			<DestinationIPListID isNull="true"/>
+			<DestinationIPNot>false</DestinationIPNot>
+			<DestinationMACType>0</DestinationMACType>
+			<DestinationMAC></DestinationMAC>
+			<DestinationMACListID isNull="true"/>
+			<DestinationMACNot>false</DestinationMACNot>
+			<DestinationPortType>0</DestinationPortType>
+			<DestinationPorts></DestinationPorts>
+			<DestinationPortListID isNull="true"/>
+			<DestinationPortNot>false</DestinationPortNot>
+			<AnyFlags>true</AnyFlags>
+			<TcpFlags>0</TcpFlags>
+			<TcpNot>false</TcpNot>
+			<IcmpType>-1</IcmpType>
+			<IcmpCode>-1</IcmpCode>
+			<IcmpNot>false</IcmpNot>
+			<ScheduleID isNull="true"/>
+			<Alert>false</Alert>
+			<SourceIPs></SourceIPs>
+			<SourceMACs></SourceMACs>
+			<DestinationIPs></DestinationIPs>
+			<DestinationMACs></DestinationMACs>
+			<RuleContextID isNull="true"/>
+			<IncludePacketData>false</IncludePacketData>
+			<LogFirstPduTimeout>300</LogFirstPduTimeout>
+		</PacketFilter>
+	</PacketFilters>
+	<PortLists>
+		<PortList id="75">
+			<TBUID>26A3AFB8-1059-3FDE-1898-ECBA9C7D3E39</TBUID>
+			<Name>Deep Security Agent</Name>
+			<Description>Ports used by Deep Security Agent</Description>
+			<Items>4118</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="76">
+			<TBUID>21108FBB-6AE3-6A52-A655-FD39B0AD2EEC</TBUID>
+			<Name>Remote Desktop</Name>
+			<Description>Ports for accessing a machine using remote desktop/terminal services</Description>
+			<Items>3389 # Remote Desktop</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="77">
+			<TBUID>F5210E7D-47BA-66C6-AC02-2AAC990D1A19</TBUID>
+			<Name>Deep Security Manager</Name>
+			<Description>Ports used by Deep Security Manager</Description>
+			<Items>4119   # Manager UI port,4120   # Heartbeat Server port</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="78">
+			<TBUID>D9F72AC0-FACF-291C-B386-CBDC9CB84540</TBUID>
+			<Name>HTTP(S)</Name>
+			<Description></Description>
+			<Items>80,443</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="79">
+			<TBUID>31D9F050-7ECF-3C95-AB1E-01465AC20748</TBUID>
+			<Name>Domain Controller (TCP)</Name>
+			<Description>Incoming TCP ports for a Domain Controller
+
+From Microsoft KB article Q289241</Description>
+			<Items>119    # NNTP,135    # RPC,139    # Netbios Session Services,389    # LDAP,445    # SMB,#443    # HTTPS,464    # Kerberos Password V5 ,500    # ISAKMP,563    # SNEWS,593    # RPC over HTTP,636    # LDAP over SSL ,1026 # Calendar Access Protocol,1067-1068  # Installation Bootstrap Service,1723            # PPTP,3268-3269  # Global Catalog ,#3389           # Remote Desktop</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="80">
+			<TBUID>DB1664F0-1D11-DB40-C6D2-9E0C180EC3CA</TBUID>
+			<Name>Domain Controller to Client (TCP)</Name>
+			<Description>TCP ports used for Domain Controller to client traffic</Description>
+			<Items>42      # WINS,88      # Kerberos,135    # DCOM Service Control Manager,139    # netbios-ssn,445    # microsoft-ds,3268  # Global Catalog,3269  # Global Catalog over SSL</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="82">
+			<TBUID>97A4C849-F9ED-5D71-0304-ACD9328189A9</TBUID>
+			<Name>Exchange Server 2003 Firewall Ports</Name>
+			<Description>Incoming ports used by Exchange Server 2003
+
+See the following technote for more information:
+https://technet.microsoft.com/en-us/library/bb124075(v=exchg.65).aspx</Description>
+			<Items>135    # RPC,102    # X.400,25      # SMTP,691    # Routing Engine,80      # HTTP for Outlook Web Access&amp;com; and public folder admin,443    # HTTPS,110    # POP3,995    # POP3 over SSL,143    # IMAP4,993    # IMAP4 over SSL,119    # Network News Transfer Protocol (NNTP),563    # NNTP over SSL,379    # Site Replication Service,135    # RPC ,# 389    # optional for LDAP ,# Note that many services use dynamic ports by default. ,# Exchange Server should be configured to use static ports and these,# ports should be added to this list</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="88">
+			<TBUID>881C5273-98C0-5232-319A-B8A5DA68CDB0</TBUID>
+			<Name>VMware vCenter Server</Name>
+			<Description>Ports used by VMware vCenter Server
+
+See the following for more details:
+http://kb.vmware.com/selfservice/microsites/search.do?cmd=displayKC&amp;externalId=1012382</Description>
+			<Items>   80 # VirtualCenter client communication (redirects to 443)
+  443 # VirtualCenter client communication
+  902 # ESX Server communication
+ 8443 # VMware SDK
+   25 # Smtp Server
+   53 # DNS Server
+  161 # SNMP Server 
+  162 # SNMP
+  389 # LDAP
+  445 # DPM VI Web
+  623 # DPM with IPMI
+  636 # Linked mode connectivity
+  903 # VI vSphere Client to VM Console
+ 1024 # Bi-directional RPC
+ 1433 # For vCenter Microsoft SQL Server Database
+ 1521 # For vCenter Oracle Database
+ 5989 # vCenter to ESX
+ 6500 # ESXi
+ 6501 # ESXi
+ 6502 # ESXi
+ 8080 # VMware vCenter 4 Management Web Services - HTTP
+ 8095 # Site Recovery Manager
+ 8096 # Site Recovery Manager
+ 9087 # Update Manager Server
+ 9443 # Client PC
+10109 # vCenter Server
+10111 # vCenter Server
+10443 # Client PC
+18443 # View Connection Server/View Manager
+27000 # Licensing via FlexLM 
+27010 # Licensing via FlexLM
+31000 # SPS Server
+52267 # vCenter Server Heartbeat Console
+57348 # vCenter Server Primary Server
+60099 # This port is for internal communication between vCenter Server and its solutions</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="89">
+			<TBUID>2057B5FC-07AC-5032-113D-E24A1D316DAA</TBUID>
+			<Name>VPN Tunnel Ports</Name>
+			<Description></Description>
+			<Items>443      # https,500      # isakmp,1723    # pptp</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="26">
+			<TBUID>E48DEA32-2395-1C85-3708-351B60038D17</TBUID>
+			<Name>Client to Domain Controller (TCP)</Name>
+			<Description>TCP ports used for client to Domain Controller traffic</Description>
+			<Items>42      # WINS,88      # Kerberos,135    # DCOM Service Control Manager,139    # netbios-ssn,445    # microsoft-ds,3268  # Global Catalog,3269  # Global Catalog over SSL</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="91">
+			<TBUID>67DAD9A4-28F4-253B-47E8-05E80ABCAB01</TBUID>
+			<Name>SSH</Name>
+			<Description>Ports for accessing a machine using SSH</Description>
+			<Items>22</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="92">
+			<TBUID>DB7818C8-D284-1B98-A17B-9DF5E37DE7CE</TBUID>
+			<Name>DHCP Server</Name>
+			<Description></Description>
+			<Items>67</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="93">
+			<TBUID>C7988A61-0C80-A2DC-F460-165337E007B6</TBUID>
+			<Name>DHCP Client</Name>
+			<Description></Description>
+			<Items>68</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="95">
+			<TBUID>660F6C95-805D-225E-1D70-DCCBDFBCFC3E</TBUID>
+			<Name>FTP</Name>
+			<Description></Description>
+			<Items>20,21</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="97">
+			<TBUID>A056E473-8926-8B2C-2F17-A175BF5C5881</TBUID>
+			<Name>Domain Controller (UDP)</Name>
+			<Description>Incoming UDP ports for a Domain Controller.
+
+From Microsoft KB article Q289241</Description>
+			<Items>88                 # Kerberos,137-138        # Netbios,389               # LDAP ,500               # ISAKMP,1645-1646    # IAS: Internet Authentication Service,1701             #  L2TP,1723             # PPTP,1812-1813    # IAS: Internet Authentication Service</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="98">
+			<TBUID>045469B9-82A6-8AC7-308E-9D9CEBED35C7</TBUID>
+			<Name>Domain Controller to Client (UDP)</Name>
+			<Description>UDP ports used for Domain Controller to client traffic</Description>
+			<Items>53     # DNS,88     # Kerberos,137   # Netbios-ns,138   # Netbios datagram service</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="100">
+			<TBUID>01162A3C-8ED6-2498-3C8F-177D0A9B958B</TBUID>
+			<Name>Windows File Sharing</Name>
+			<Description>Ports used for Microsoft Windows file sharing</Description>
+			<Items>137,138,139,445</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="101">
+			<TBUID>A92EDF70-CB6C-A9B7-D0A8-281481D35903</TBUID>
+			<Name>Microsoft SQL Server</Name>
+			<Description>Ports used by Microsoft SQL Server</Description>
+			<Items>1433,1434</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="102">
+			<TBUID>713959F0-E0F4-DF50-8B90-C3EB4F3D80E0</TBUID>
+			<Name>IPSec IKE</Name>
+			<Description></Description>
+			<Items>500</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="103">
+			<TBUID>C22D3F42-C5A1-E745-AFCE-24E79DEEF6EE</TBUID>
+			<Name>NetBios - ns</Name>
+			<Description></Description>
+			<Items>137</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="104">
+			<TBUID>EB9678DE-6936-4EC0-2645-39987035D3E2</TBUID>
+			<Name>DNS Server</Name>
+			<Description></Description>
+			<Items>53</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="108">
+			<TBUID>2FD92AF7-6E70-788D-96EF-A88E5FB0C36E</TBUID>
+			<Name>Veritas</Name>
+			<Description></Description>
+			<Items>13722,10000,13701,6101,13782</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="109">
+			<TBUID>BADA9DF2-2A2C-C278-617C-7B3C239698F4</TBUID>
+			<Name>POP3</Name>
+			<Description></Description>
+			<Items>110</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="110">
+			<TBUID>A719AE82-9601-0B75-CF10-58FC170DD75D</TBUID>
+			<Name>WINS</Name>
+			<Description></Description>
+			<Items>1512</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="111">
+			<TBUID>235A8C3C-A633-D24C-04BB-399748AA7E2D</TBUID>
+			<Name>WINS Replication</Name>
+			<Description></Description>
+			<Items>42</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="112">
+			<TBUID>758EEB0F-FB45-779D-ED9B-6E8F77A80CAE</TBUID>
+			<Name>Computer Associates Unicenter</Name>
+			<Description></Description>
+			<Items>4105</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="114">
+			<TBUID>4A46BE5E-AE30-F61F-51E5-4A2C14572933</TBUID>
+			<Name>SMTP</Name>
+			<Description></Description>
+			<Items>25</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="115">
+			<TBUID>777B9389-000E-CF95-8167-800328DECAA1</TBUID>
+			<Name>WINS Registration</Name>
+			<Description></Description>
+			<Items>137</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="116">
+			<TBUID>8C66FA20-E85D-239D-03CB-8067C44B9FE7</TBUID>
+			<Name>IMAP</Name>
+			<Description></Description>
+			<Items>143,585,993</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="117">
+			<TBUID>C6E323B4-3E9B-FFE2-B374-3B4862E0F495</TBUID>
+			<Name>MySQL Server</Name>
+			<Description></Description>
+			<Items>3306</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="118">
+			<TBUID>4F673227-5C7D-DAD0-B2CB-F56D845B5E6D</TBUID>
+			<Name>Oracle SQL Server</Name>
+			<Description></Description>
+			<Items>1521,5560</Items>
+			<Version>3</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="119">
+			<TBUID>18EA1D49-D3F5-9DF5-7220-DB59EC34E208</TBUID>
+			<Name>Network Time Protocol</Name>
+			<Description></Description>
+			<Items>123</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="120">
+			<TBUID>7A1859DC-3BCC-761D-08A7-5B818EA46924</TBUID>
+			<Name>IDENT</Name>
+			<Description></Description>
+			<Items>113</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+	</PortLists>
+	<IPLists>
+		<IPList id="1">
+			<TBUID>0918CE2A-FA83-2442-34A3-4F3CB95A0F7D</TBUID>
+			<Name>Ingress Filters</Name>
+			<Description>Reserved IP Addresses</Description>
+			<Items>0.0.0.0/255.0.0.0,10.0.0.0/255.0.0.0,127.0.0.0/255.0.0.0,169.254.0.0/255.255.0.0,172.16.0.0/255.240.0.0,192.0.2.0/255.255.255.0,192.168.0.0/255.255.0.0,224.0.0.0/240.0.0.0,248.0.0.0/248.0.0.0,255.255.255.255/255.255.255.255</Items>
+		</IPList>
+		<IPList id="2">
+			<TBUID>E5B9BBA9-BB81-80DC-2788-E4985654D32C</TBUID>
+			<Name>Domain Controller(s)</Name>
+			<Description>A list of domain controllers from which clients should accept traffic</Description>
+			<Items>10.0.0.0/8,172.16.0.0/12,192.168.0.0/16</Items>
+		</IPList>
+		<IPList id="3">
+			<TBUID>6D5592D7-CB25-3D6D-1894-89F9A11FF4D0</TBUID>
+			<Name>Off Domain IPs</Name>
+			<Description>Private IP addresses allowed while off domain for non internet connectivity</Description>
+			<Items>10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,224.0.0.0/8           #multicast,255.255.255.255 #broadcast</Items>
+		</IPList>
+		<IPList id="4">
+			<TBUID>B37AF0F5-47F2-35E8-4780-734B51E97484</TBUID>
+			<Name>Corporate Network IPs</Name>
+			<Description>IPs  allowed while remotely connected to domain</Description>
+			<Items>10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,224.0.0.0/8           #multicast,255.255.255.255  #broadcast</Items>
+		</IPList>
+		<IPList id="6">
+			<TBUID>4A80E8AD-CAD8-4686-91A0-33407493B939</TBUID>
+			<Name>Network Broadcast</Name>
+			<Description></Description>
+			<Items>255.255.255.255/255.255.255.255</Items>
+		</IPList>
+		<IPList id="7">
+			<TBUID>2735389B-AB6D-0A8F-599D-C386B3357034</TBUID>
+			<Name>VPN Tunnel IPs</Name>
+			<Description></Description>
+			<Items>127.0.0.1     # vpn server</Items>
+		</IPList>
+	</IPLists>
+	<MACLists/>
+	<Schedules/>
+	<RuleContexts>
+		<RuleContext id="1">
+			<TBUID>07FD4ED4-F5ED-A59D-6549-6374824950D5</TBUID>
+			<Version>1</Version>
+			<Name>Restricted Interface Warm Standby</Name>
+			<Description>Rules in this context apply when an interfaces is restricted</Description>
+			<OnDomainStatus>0</OnDomainStatus>
+			<RuleXML></RuleXML>
+			<ApplyToLockedInterfaces>true</ApplyToLockedInterfaces>
+			<UserEdited>true</UserEdited>
+			<MinimumAgentVersion>6.0.0.0</MinimumAgentVersion>
+			<CompositeOnDomainStatus isNull="true"/>
+		</RuleContext>
+		<RuleContext id="2">
+			<TBUID>83D98DD4-F480-9200-48C3-F121C230BC8D</TBUID>
+			<Version>1</Version>
+			<Name>Remote Domain VPN</Name>
+			<Description>Rules in this context apply when remotely connected to the domain</Description>
+			<OnDomainStatus>3</OnDomainStatus>
+			<RuleXML></RuleXML>
+			<ApplyToLockedInterfaces>false</ApplyToLockedInterfaces>
+			<UserEdited>true</UserEdited>
+			<MinimumAgentVersion>6.0.0.0</MinimumAgentVersion>
+			<CompositeOnDomainStatus isNull="true"/>
+		</RuleContext>
+		<RuleContext id="3">
+			<TBUID>E0AC76BF-656A-56F7-2CCD-8CDD39599D4F</TBUID>
+			<Version>1</Version>
+			<Name>Off Domain</Name>
+			<Description></Description>
+			<OnDomainStatus>4</OnDomainStatus>
+			<RuleXML></RuleXML>
+			<ApplyToLockedInterfaces>false</ApplyToLockedInterfaces>
+			<UserEdited>false</UserEdited>
+			<MinimumAgentVersion>6.0.0.0</MinimumAgentVersion>
+			<CompositeOnDomainStatus isNull="true"/>
+		</RuleContext>
+	</RuleContexts>
+</Export>

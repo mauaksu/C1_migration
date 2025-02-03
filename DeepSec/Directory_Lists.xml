@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Export type="ScanDirectoryList" date="February 3, 2025 16:06" version="50.0.3415">
+	<ScanDirectoryLists>
+		<ScanDirectoryList id="1">
+			<TBUID>DFCB0726-ED39-4ECC-B987-01E0B1DF9A89</TBUID>
+			<Name>Directory Exclusions (Windows)</Name>
+			<Description></Description>
+			<Items>${ProgramFiles}\Microsoft Monitoring Agent\Agent\Health Service State\&lt;:&gt;${Windir}\Logs\&lt;:&gt;${Systemdrive}\WindowsAzure\Logs\&lt;:&gt;${Systemdrive}\Packages\Plugins\Microsoft.EnterpriseCloud.Monitoring.MicrosoftMonitoringAgent\&lt;:&gt;C:\Program Files\Trend Micro\Artifact\&lt;:&gt;C:\Program Files\Trend Micro\Cloud Endpoint\&lt;:&gt;C:\Program Files (x86)\Trend Micro\Endpoint Basecamp\&lt;:&gt;</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="3">
+			<TBUID>A26B0CA8-90F5-462D-99A4-B68BF239FB09</TBUID>
+			<Name>Trend Micro Apex Central Exclusion List (Windows)</Name>
+			<Description></Description>
+			<Items>C:\Program Files (x86)\Trend Micro\Control Manager\WebUI\exports\OutputReports\&lt;:&gt;</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="2">
+			<TBUID>5B44324A-37BE-47DB-B408-95E443D59D1E</TBUID>
+			<Name>Trend Micro Apex One server Exclusion List (Windows)</Name>
+			<Description></Description>
+			<Items>C:\Program Files (x86)\Trend Micro\OfficeScan\PCCSRV\TEMP\SaaS\Backup\&lt;:&gt;</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="38">
+			<TBUID></TBUID>
+			<Name>Trend Micro Directory Exchange 2019 Exclusions</Name>
+			<Description>https://learn.microsoft.com/en-us/Exchange/antispam-and-antimalware/windows-antivirus-software?view=exchserver-2019</Description>
+			<Items> #Exchange 2019&lt;:&gt;${windir}\Cluster\&lt;:&gt;${windir}\Temp\OICE_*\&lt;:&gt;C:\inetpub\temp\IIS Temporary Compressed Files\&lt;:&gt;C:\DAGFileShareWitnesses\DAGFQDN\ #add correct DAGFQDN&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\ClientAccess\OAB\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\FIP-FS\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\GroupMetrics\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Logging\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Mailbox\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Data\Adam\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Data\IpFilter\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Data\Queue\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Data\SenderReputation\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Data\Temp\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Logs\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Pickup\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\TransportRoles\Replay\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\UnifiedMessaging\Grammars\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\UnifiedMessaging\Prompts\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\UnifiedMessaging\Temp\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\UnifiedMessaging\Voicemail\&lt;:&gt;C:\Program Files\Microsoft\Exchange Server\V15\Working\OleConverter\&lt;:&gt;</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="40">
+			<TBUID></TBUID>
+			<Name>Trend Micro Directory Hyper-V Host Exclusions</Name>
+			<Description>https://learn.microsoft.com/en-US/troubleshoot/windows-server/virtualization/antivirus-exclusions-for-hyper-v-hosts</Description>
+			<Items> #Hyper-V&lt;:&gt;${Systemdrive}\ProgramData\Microsoft\Windows\Hyper-V\&lt;:&gt;${Systemdrive}\Users\Public\Documents\Hyper-V\Virtual Hard Disks\&lt;:&gt;${Systemdrive}\ProgramData\Microsoft\Windows\Hyper-V\Snapshots\&lt;:&gt;C:\ClusterStorage\&lt;:&gt;</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="67">
+			<TBUID></TBUID>
+			<Name>Trend Micro Directory IIS Web Exclusions</Name>
+			<Description></Description>
+			<Items># IIS Web&lt;:&gt;${Windir}\IIS Temporary Compressed Files\&lt;:&gt;${Systemdrive}\inetpub\temp\IIS Temporary Compressed Files\&lt;:&gt;${Systemdrive}\inetpub\temp\ASP Compiled Templates\&lt;:&gt;${Systemdrive}\inetpub\logs\&lt;:&gt;${Systemdrive}\inetpub\wwwroot\</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="34">
+			<TBUID></TBUID>
+			<Name>Trend Micro Directory Linux OS Exclusions</Name>
+			<Description>Documentation to general Linux exclusions
+
+https://success.trendmicro.com/dcx/s/solution/1115327-recommended-scan-exclusions-for-deep-security-in-linux?language=en_US&amp;sfdcIFrameOrigin=null</Description>
+			<Items> #Documentation to general Linux exclusions below&lt;:&gt; #https://success.trendmicro.com/dcx/s/solution/1115327-recommended-scan-exclusions-for-deep-security-in-linux?language=en_US&amp;sfdcIFrameOrigin=null&lt;:&gt;</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="36">
+			<TBUID></TBUID>
+			<Name>Trend Micro Directory Mac OS Exclusions</Name>
+			<Description></Description>
+			<Items></Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="37">
+			<TBUID></TBUID>
+			<Name>Trend Micro Directory Windows AD Exclusions</Name>
+			<Description></Description>
+			<Items> #Trend Micro Recommendations Windows AD&lt;:&gt;${Windir}\SYSVOL\&lt;:&gt;${Windir}\NTDS\&lt;:&gt;${Windir}\ntfrs\&lt;:&gt;${Windir}\system32\dhcp\&lt;:&gt;${Windir}\system32\dns\&lt;:&gt;</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="35">
+			<TBUID></TBUID>
+			<Name>Trend Micro Directory Windows OS Exclusions</Name>
+			<Description></Description>
+			<Items>#Trend Micro Windows Recommendations&lt;:&gt;${Windir}\system32\GroupPolicy\&lt;:&gt;${Windir}\Cluster\&lt;:&gt;${ProgramFiles}\Microsoft Monitoring Agent\Agent\Health Service State\&lt;:&gt;${Windir}\Logs\&lt;:&gt;${Systemdrive}\WindowsAzure\Logs\&lt;:&gt;${Systemdrive}\Packages\Plugins\Microsoft.EnterpriseCloud.Monitoring.MicrosoftMonitoringAgent\&lt;:&gt;&lt;:&gt;# WINS files&lt;:&gt;${Windir}\System32\LogFiles\&lt;:&gt;${Windir}\SysWow64\LogFiles\</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+		<ScanDirectoryList id="39">
+			<TBUID></TBUID>
+			<Name>Trend Micro Directory Windows SQL Exclusions</Name>
+			<Description>https://support.microsoft.com/en-us/topic/how-to-choose-antivirus-software-to-run-on-computers-that-are-running-sql-server-feda079b-3e24-186b-945a-3051f6f3a95b</Description>
+			<Items> #SQL&lt;:&gt;${Windir}\WINNT\Cluster\ #if using SQL Clustering&lt;:&gt;Q:\ #if using SQL Clustering&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\*\COM\&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\MSSQL\Data\&lt;:&gt; #Analysis Services backup files&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\MSSQL.X\OLAP\Backup\&lt;:&gt; #Full-Text catalog files&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\MSSQL\FTDATA\ #Default instance:&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\MSSQL*\FTDATA\ #Named instance:&lt;:&gt; #Files in Replication Snapshot folder&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\MSSQL*.MSSQLSERVER\MSSQL\ReplData\&lt;:&gt; #The directory that holds Analysis Services data&lt;:&gt;${ProgramFiles}\Microsoft SQL Server\MSSQL.X\OLAP\Log\&lt;:&gt;</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+			<CreatingV1RoleID isNull="true"/>
+			<AnchoredPolicyID isNull="true"/>
+		</ScanDirectoryList>
+	</ScanDirectoryLists>
+</Export>

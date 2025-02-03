@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Export type="RuleContext" date="February 3, 2025 16:07" version="50.0.3415">
+	<RuleContexts>
+		<RuleContext id="3">
+			<TBUID>E0AC76BF-656A-56F7-2CCD-8CDD39599D4F</TBUID>
+			<Version>1</Version>
+			<Name>Off Domain</Name>
+			<Description></Description>
+			<OnDomainStatus>4</OnDomainStatus>
+			<RuleXML></RuleXML>
+			<ApplyToLockedInterfaces>false</ApplyToLockedInterfaces>
+			<UserEdited>false</UserEdited>
+			<MinimumAgentVersion>6.0.0.0</MinimumAgentVersion>
+			<CompositeOnDomainStatus isNull="true"/>
+		</RuleContext>
+		<RuleContext id="2">
+			<TBUID>83D98DD4-F480-9200-48C3-F121C230BC8D</TBUID>
+			<Version>1</Version>
+			<Name>Remote Domain VPN</Name>
+			<Description>Rules in this context apply when remotely connected to the domain</Description>
+			<OnDomainStatus>3</OnDomainStatus>
+			<RuleXML></RuleXML>
+			<ApplyToLockedInterfaces>false</ApplyToLockedInterfaces>
+			<UserEdited>true</UserEdited>
+			<MinimumAgentVersion>6.0.0.0</MinimumAgentVersion>
+			<CompositeOnDomainStatus isNull="true"/>
+		</RuleContext>
+		<RuleContext id="1">
+			<TBUID>07FD4ED4-F5ED-A59D-6549-6374824950D5</TBUID>
+			<Version>1</Version>
+			<Name>Restricted Interface Warm Standby</Name>
+			<Description>Rules in this context apply when an interfaces is restricted</Description>
+			<OnDomainStatus>0</OnDomainStatus>
+			<RuleXML></RuleXML>
+			<ApplyToLockedInterfaces>true</ApplyToLockedInterfaces>
+			<UserEdited>true</UserEdited>
+			<MinimumAgentVersion>6.0.0.0</MinimumAgentVersion>
+			<CompositeOnDomainStatus isNull="true"/>
+		</RuleContext>
+	</RuleContexts>
+</Export>

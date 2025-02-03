@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Export type="PortList" date="February 3, 2025 16:06" version="50.0.3415">
+	<PortLists>
+		<PortList id="33">
+			<TBUID>57A9483D-1031-1481-8688-EB8B9CE63672</TBUID>
+			<Name>Alt-N WebAdmin Server</Name>
+			<Description></Description>
+			<Items>1000</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="19">
+			<TBUID>B6AAB593-826A-4F6B-F145-A016D35BA0E1</TBUID>
+			<Name>AnswerBook2</Name>
+			<Description></Description>
+			<Items>8888</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="40">
+			<TBUID>F64CE6D5-75EC-77E0-7F55-FBE8C9B8DC9D</TBUID>
+			<Name>Arkeia Server</Name>
+			<Description></Description>
+			<Items>617</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="10">
+			<TBUID>BB72285D-0E6E-5B8B-2EC1-F5892EB22227</TBUID>
+			<Name>Backdoors UDP</Name>
+			<Description></Description>
+			<Items>27184,1183,666</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="2">
+			<TBUID>56D66D30-D939-5676-265C-56B2F1826B0B</TBUID>
+			<Name>Backdoor TCP</Name>
+			<Description>Common used ports by backdoors</Description>
+			<Items>32418,30029,79,48,6789,23432,334,1020,5000,5400,51966,54321,60666,6666,6969,9696,9697,4488,8081,666,6672,31887,3791,2001,2002,12624,27374,12345,21554,52978,1850,31745,1245,1777,1218,6000,6400,1999,58008</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="113">
+			<TBUID>4A637E26-3F0E-9992-E901-624E110EF3B0</TBUID>
+			<Name>Back Orifice</Name>
+			<Description></Description>
+			<Items>1337,31337</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="28">
+			<TBUID>0B423196-1850-F13E-9B5F-1522E624ED6F</TBUID>
+			<Name>Backup Server CA BrightStor ARCserve Agent</Name>
+			<Description>Backup Server BrightStor ARCserve Agent.</Description>
+			<Items>6070,6071,6050</Items>
+			<Version>3</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="47">
+			<TBUID>60A8F535-4083-667F-4AA9-B27714EC79BD</TBUID>
+			<Name>Backup Server EMC Dantz Retrospect Backup Agent</Name>
+			<Description></Description>
+			<Items>497</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="41">
+			<TBUID>DE08D0D3-423F-4100-47F7-EEBC3574809D</TBUID>
+			<Name>BakBone NetVault Server</Name>
+			<Description></Description>
+			<Items>20031</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="60">
+			<TBUID>7F782901-5D02-6A2B-5F74-E24FF406229C</TBUID>
+			<Name>CA Antivirus Console Server</Name>
+			<Description></Description>
+			<Items>12168</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="34">
+			<TBUID>C446C7F4-8CE5-1078-77D3-29666CEABF0C</TBUID>
+			<Name>CA BrightStor ARCServe</Name>
+			<Description></Description>
+			<Items>41524,41523</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="8">
+			<TBUID>27B9EF46-0F8E-7243-A41D-1325475DBBD0</TBUID>
+			<Name>CA Unicenter</Name>
+			<Description></Description>
+			<Items>4105</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="20">
+			<TBUID>84B0571A-5630-F5EF-F636-FAE46CB7ECC6</TBUID>
+			<Name>CFEngine</Name>
+			<Description></Description>
+			<Items>5308</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="36">
+			<TBUID>6291A98D-233D-0CDA-E195-7283808E309B</TBUID>
+			<Name>Cisco Collaboration Server</Name>
+			<Description></Description>
+			<Items>80</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="26">
+			<TBUID>E48DEA32-2395-1C85-3708-351B60038D17</TBUID>
+			<Name>Client to Domain Controller (TCP)</Name>
+			<Description>TCP ports used for client to Domain Controller traffic</Description>
+			<Items>42      # WINS,88      # Kerberos,135    # DCOM Service Control Manager,139    # netbios-ssn,445    # microsoft-ds,3268  # Global Catalog,3269  # Global Catalog over SSL</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="74">
+			<TBUID>FF108D1D-E29E-5FE9-660D-B4BD4826F277</TBUID>
+			<Name>Client to Domain Controller (UDP)</Name>
+			<Description>UDP ports used for client to Domain Controller traffic</Description>
+			<Items>53     # DNS,88     # Kerberos,137   # Netbios-ns,138   # Netbios datagram service,389   # ldap</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="84">
+			<TBUID>7988BE91-683C-1B28-D141-4BE8E5A03EC0</TBUID>
+			<Name>Computer Associates iGateway</Name>
+			<Description></Description>
+			<Items>5250</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="112">
+			<TBUID>758EEB0F-FB45-779D-ED9B-6E8F77A80CAE</TBUID>
+			<Name>Computer Associates Unicenter</Name>
+			<Description></Description>
+			<Items>4105</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="25">
+			<TBUID>72F6CB12-CE60-6106-5872-66D2B326BEF7</TBUID>
+			<Name>CVS</Name>
+			<Description></Description>
+			<Items>2401,1999</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="75">
+			<TBUID>26A3AFB8-1059-3FDE-1898-ECBA9C7D3E39</TBUID>
+			<Name>Deep Security Agent</Name>
+			<Description>Ports used by Deep Security Agent</Description>
+			<Items>4118</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="77">
+			<TBUID>F5210E7D-47BA-66C6-AC02-2AAC990D1A19</TBUID>
+			<Name>Deep Security Manager</Name>
+			<Description>Ports used by Deep Security Manager</Description>
+			<Items>4119   # Manager UI port,4120   # Heartbeat Server port</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="93">
+			<TBUID>C7988A61-0C80-A2DC-F460-165337E007B6</TBUID>
+			<Name>DHCP Client</Name>
+			<Description></Description>
+			<Items>68</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="92">
+			<TBUID>DB7818C8-D284-1B98-A17B-9DF5E37DE7CE</TBUID>
+			<Name>DHCP Server</Name>
+			<Description></Description>
+			<Items>67</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="104">
+			<TBUID>EB9678DE-6936-4EC0-2645-39987035D3E2</TBUID>
+			<Name>DNS Server</Name>
+			<Description></Description>
+			<Items>53</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="79">
+			<TBUID>31D9F050-7ECF-3C95-AB1E-01465AC20748</TBUID>
+			<Name>Domain Controller (TCP)</Name>
+			<Description>Incoming TCP ports for a Domain Controller
+
+From Microsoft KB article Q289241</Description>
+			<Items>119    # NNTP,135    # RPC,139    # Netbios Session Services,389    # LDAP,445    # SMB,#443    # HTTPS,464    # Kerberos Password V5 ,500    # ISAKMP,563    # SNEWS,593    # RPC over HTTP,636    # LDAP over SSL ,1026 # Calendar Access Protocol,1067-1068  # Installation Bootstrap Service,1723            # PPTP,3268-3269  # Global Catalog ,#3389           # Remote Desktop</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="80">
+			<TBUID>DB1664F0-1D11-DB40-C6D2-9E0C180EC3CA</TBUID>
+			<Name>Domain Controller to Client (TCP)</Name>
+			<Description>TCP ports used for Domain Controller to client traffic</Description>
+			<Items>42      # WINS,88      # Kerberos,135    # DCOM Service Control Manager,139    # netbios-ssn,445    # microsoft-ds,3268  # Global Catalog,3269  # Global Catalog over SSL</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="98">
+			<TBUID>045469B9-82A6-8AC7-308E-9D9CEBED35C7</TBUID>
+			<Name>Domain Controller to Client (UDP)</Name>
+			<Description>UDP ports used for Domain Controller to client traffic</Description>
+			<Items>53     # DNS,88     # Kerberos,137   # Netbios-ns,138   # Netbios datagram service</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="97">
+			<TBUID>A056E473-8926-8B2C-2F17-A175BF5C5881</TBUID>
+			<Name>Domain Controller (UDP)</Name>
+			<Description>Incoming UDP ports for a Domain Controller.
+
+From Microsoft KB article Q289241</Description>
+			<Items>88                 # Kerberos,137-138        # Netbios,389               # LDAP ,500               # ISAKMP,1645-1646    # IAS: Internet Authentication Service,1701             #  L2TP,1723             # PPTP,1812-1813    # IAS: Internet Authentication Service</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="17">
+			<TBUID>67EF8C64-95D7-0AE9-1132-7A6D7BC4D7B0</TBUID>
+			<Name>dtspcd</Name>
+			<Description></Description>
+			<Items>6112</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="96">
+			<TBUID>32D778E3-FB17-016B-A40A-9800F352EC0B</TBUID>
+			<Name>Exchange Server 2000 Firewall Ports</Name>
+			<Description>Incoming ports used by Exchange Server 2000
+
+See the following technotes for more details: http://support.microsoft.com/default.aspx?scid=kb;en-us;q278339
+http://www.microsoft.com/technet/prodtechnol/exchange/2000/library/reskit/resguide/appendb.mspx</Description>
+			<Items>389    # LDAP (port 390 may also be used as an alternate) ,636    # LDAP over SSL,379    # Site Replication Service ,143    # IMAP4,993    # IMAP4 over SSL,110    # POP3,995    # POP# over SSL,119    # Network News Transport Protocol (NNTP),563    # NNTP over SSL,80      # HTTP (for Outlook Web Access) ,443    # HTTPS ,25      # SMTP,465    # SMTP over SSL,691    # SMTP/LSA,6667  # extended Internet Relay Chat (IRCX),994    # IRC over SSL,102    # X.400,135    # RPC,1503  # T.120,522    # User Locator Service ,1720  # H.323 (Video),1731  # Audio conferencing,2980  # Instant Messaging Service,# the following may be required if your Exchange server hosts a ,# DNS server or the Global Catalog to enable these ports remove the,# leading &apos;#&apos; from the line that is commenting them out,#53      # DNS,#3268  # Global Catalog,#3269  # Global Catalog over SSL</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="82">
+			<TBUID>97A4C849-F9ED-5D71-0304-ACD9328189A9</TBUID>
+			<Name>Exchange Server 2003 Firewall Ports</Name>
+			<Description>Incoming ports used by Exchange Server 2003
+
+See the following technote for more information:
+https://technet.microsoft.com/en-us/library/bb124075(v=exchg.65).aspx</Description>
+			<Items>135    # RPC,102    # X.400,25      # SMTP,691    # Routing Engine,80      # HTTP for Outlook Web Access&amp;com; and public folder admin,443    # HTTPS,110    # POP3,995    # POP3 over SSL,143    # IMAP4,993    # IMAP4 over SSL,119    # Network News Transfer Protocol (NNTP),563    # NNTP over SSL,379    # Site Replication Service,135    # RPC ,# 389    # optional for LDAP ,# Note that many services use dynamic ports by default. ,# Exchange Server should be configured to use static ports and these,# ports should be added to this list</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="99">
+			<TBUID>3E281D01-52C5-2BC2-D3EF-40C36D302674</TBUID>
+			<Name>Fast Scan</Name>
+			<Description>A list of common ports for a fast port scan.</Description>
+			<Items>21,22,23,25,53,79,80,110,113,119,135,137-139,143,389,443,445,559,1002,1024-1030,1433,1720,2745,2535,3127,3306,3410,5000,5554,6101,6129,11768,27374,65506</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="95">
+			<TBUID>660F6C95-805D-225E-1D70-DCCBDFBCFC3E</TBUID>
+			<Name>FTP</Name>
+			<Description></Description>
+			<Items>20,21</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="5">
+			<TBUID>BF2DEEA1-F70E-60F4-7DEF-E52A2B3B007C</TBUID>
+			<Name>HP OpenView</Name>
+			<Description></Description>
+			<Items>1530,3443,5051,5053,5555,19813</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="105">
+			<TBUID>348040DE-2251-C316-76B2-17C51FE0DC2B</TBUID>
+			<Name>HTTP</Name>
+			<Description></Description>
+			<Items>80</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="78">
+			<TBUID>D9F72AC0-FACF-291C-B386-CBDC9CB84540</TBUID>
+			<Name>HTTP(S)</Name>
+			<Description></Description>
+			<Items>80,443</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="120">
+			<TBUID>7A1859DC-3BCC-761D-08A7-5B818EA46924</TBUID>
+			<Name>IDENT</Name>
+			<Description></Description>
+			<Items>113</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="116">
+			<TBUID>8C66FA20-E85D-239D-03CB-8067C44B9FE7</TBUID>
+			<Name>IMAP</Name>
+			<Description></Description>
+			<Items>143,585,993</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="44">
+			<TBUID>1E0CCA1C-0298-245D-BB4F-352CDCBE1ADE</TBUID>
+			<Name>in.rwhod</Name>
+			<Description></Description>
+			<Items>513</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="102">
+			<TBUID>713959F0-E0F4-DF50-8B90-C3EB4F3D80E0</TBUID>
+			<Name>IPSec IKE</Name>
+			<Description></Description>
+			<Items>500</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="59">
+			<TBUID>3F5081C5-EE09-2DB5-0159-E411BA31EB6F</TBUID>
+			<Name>Kerberos</Name>
+			<Description></Description>
+			<Items>543,544,749,754</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="85">
+			<TBUID>E6762B97-3D2D-21D4-80FF-F7FFB8003B4C</TBUID>
+			<Name>LDAP</Name>
+			<Description></Description>
+			<Items>389,9833,3268</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="45">
+			<TBUID>8F740A28-211C-FB49-06CB-03CC9CC495A2</TBUID>
+			<Name>License Server CA</Name>
+			<Description></Description>
+			<Items>10202,10203</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="48">
+			<TBUID>06EFA62C-DC81-CADC-1F3C-192AE8CC8542</TBUID>
+			<Name>License ServerSentinel</Name>
+			<Description></Description>
+			<Items>5093</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="15">
+			<TBUID>D6AD7782-C563-8115-BE42-A2949FEF11A7</TBUID>
+			<Name>LPD</Name>
+			<Description></Description>
+			<Items>515</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="6">
+			<TBUID>5CF66DE1-5211-7258-EF42-0A10707E24E2</TBUID>
+			<Name>Mail Server Content</Name>
+			<Description></Description>
+			<Items>25,110,143</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="27">
+			<TBUID>FA726A5D-4711-9A1A-E780-A3806E79EAE3</TBUID>
+			<Name>Mail Server Lotus Domino</Name>
+			<Description>Lotus Domino Mail Server ports (SMTP, POP3 and IMAP)</Description>
+			<Items>25,110,143</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="64">
+			<TBUID>B85C9038-2219-A2DB-9359-7A61DCE6FD8F</TBUID>
+			<Name>Malware</Name>
+			<Description>Port list for Malware</Description>
+			<Items>27,48,79,81,96,123,146,148,190,196,201,286,300,334,407,456,551,555,567,610,623,666,667,673,737,777,789,800,831,868,871,876,877,890,901,911,980,999,1000,1051,1001,1020,1023,1027,1040,1042,1046,1098,1099,1167,1179,1183,1187,1115,1201,1207,1212,1216,1218,1234,1245,1254,1255,1276,1295,1327,1337,1339,1357,1412,1421,1441,1480,1529,1653,1777,1784,1850,1969,1981,1999,2000,2001,2002,2018,2046,2111,2115,2140,2122,2177,2208,2255,2323,2444,2500,2527,2583,2589,2600,2612,2702,2716,2783,2968,3000,3100,3133,3182,3261,3262,3333,3360,3410,3460,3505,3723,3791,4000,4010,4125,4201,4321,4444,4488,4563,4564,4565,4648,4899,4950,4973,5000,5024,5050,5051,5053,5110,5210,5277,5328,5400,5555,5569,5600,5656,5666,5667,5695,5712,5888,5900,6000,6071,6116,6129,6248,6333,6400,6600,6655,6660,6666,6667,6672,6700,6703,6767,6789,6912,6969,7000,7001,7250,7306,7329,7614,7626,7648,7800,7873,7896,8012,8079,8081,8200,8282,8502,8535,8811,8812,8888,9089,9090,9102,9400,9401,9696,9697,9863,9989,9996,9999,10000,10005,10015,10050,10167,10220,10426,10666,11000,11131,11831,11977,12122,12345,12349,12624,13473,15000,15163,15963,16454,16661,18000,18001,18713,19820,19850,20001,20931,21183,21554,22784,23032,23432,23456,23476,23812,24308,25226,27184,27374,28431,30000,30001,30029,30100,31337,31338,31415,31745,31887,31890,32222,32418,32791,33333,33445,33812,34012,34999,47221,47262,47891,50326,50766,51234,51966,52978,54312,54321,55126,55555,57341,58008,60000,60666,54320,3132,7424,7425,12667,15432</Items>
+			<Version>168</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="58">
+			<TBUID>21C95612-BF04-C83F-5490-B99835C5218B</TBUID>
+			<Name>Message Engine CA RPC Server</Name>
+			<Description></Description>
+			<Items>6503,6504</Items>
+			<Version>4</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="46">
+			<TBUID>17CCDCAD-9B32-37A1-CA5F-AB8C1A89D1BA</TBUID>
+			<Name>Message Queuing Server CA</Name>
+			<Description></Description>
+			<Items>4105</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="62">
+			<TBUID>132C2091-3457-DC85-9E0A-D3D589C6188B</TBUID>
+			<Name>Message Queuing Server Microsoft</Name>
+			<Description></Description>
+			<Items>135,2103,2105,2107</Items>
+			<Version>5</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="65">
+			<TBUID>0FD4B6CF-EA2D-CB42-C274-80D4FEF432E1</TBUID>
+			<Name>Microsoft Exchange Server</Name>
+			<Description>Incoming ports used by Exchange Server
+
+See the following technotes for more details: http://support.microsoft.com/default.aspx?scid=kb;en-us;q278339
+http://www.microsoft.com/technet/prodtechnol/exchange/2000/library/reskit/resguide/appendb.mspx</Description>
+			<Items>25,143,110</Items>
+			<Version>7</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="106">
+			<TBUID>DC0A5D06-344E-02E3-B71D-42AA97194911</TBUID>
+			<Name>Microsoft RPC</Name>
+			<Description></Description>
+			<Items>135,138,139,445,593</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="107">
+			<TBUID>E10E9075-3704-0F7D-9ECF-BC9A1106D6A3</TBUID>
+			<Name>Microsoft SMB</Name>
+			<Description></Description>
+			<Items>137,138,139,445,593,3372,1165,1166</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="39">
+			<TBUID>4F6B6354-1FCF-FE60-A2A5-C5B91A6C7AA0</TBUID>
+			<Name>Microsoft SQL Resolution service</Name>
+			<Description></Description>
+			<Items>1434</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="101">
+			<TBUID>A92EDF70-CB6C-A9B7-D0A8-281481D35903</TBUID>
+			<Name>Microsoft SQL Server</Name>
+			<Description>Ports used by Microsoft SQL Server</Description>
+			<Items>1433,1434</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="71">
+			<TBUID>D24DF606-D762-132B-1EB7-6A2E3B2AF471</TBUID>
+			<Name>Microsoft UPnP</Name>
+			<Description>Microsoft Universal Plug n Play</Description>
+			<Items>1900</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="49">
+			<TBUID>1A9C7C95-CC8A-11FE-3BA4-AECE4CDD50F7</TBUID>
+			<Name>MySQL MaxDB</Name>
+			<Description></Description>
+			<Items>9999</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="117">
+			<TBUID>C6E323B4-3E9B-FFE2-B374-3B4862E0F495</TBUID>
+			<Name>MySQL Server</Name>
+			<Description></Description>
+			<Items>3306</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="68">
+			<TBUID>ED8CE1DD-A189-B5AC-1A36-42FDC2213DFC</TBUID>
+			<Name>NAI ePolicy Orchestrator</Name>
+			<Description></Description>
+			<Items>8081,8082</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="94">
+			<TBUID>6133F7A5-E8E7-6868-D507-D2DB74244F25</TBUID>
+			<Name>NetBios</Name>
+			<Description></Description>
+			<Items>137,138,139</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="103">
+			<TBUID>C22D3F42-C5A1-E745-AFCE-24E79DEEF6EE</TBUID>
+			<Name>NetBios - ns</Name>
+			<Description></Description>
+			<Items>137</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="119">
+			<TBUID>18EA1D49-D3F5-9DF5-7220-DB59EC34E208</TBUID>
+			<Name>Network Time Protocol</Name>
+			<Description></Description>
+			<Items>123</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="9">
+			<TBUID>7357070B-BFAE-EC7C-17D0-5CAD44F0CD19</TBUID>
+			<Name>NFS</Name>
+			<Description></Description>
+			<Items>2049</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="12">
+			<TBUID>DEBE7485-A947-B294-118B-6E423C6CE896</TBUID>
+			<Name>NNTP</Name>
+			<Description></Description>
+			<Items>119</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="22">
+			<TBUID>D0200C21-3B97-75B9-8D56-287CC81331F7</TBUID>
+			<Name>Novell Distributed Print Services</Name>
+			<Description></Description>
+			<Items>3017</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="13">
+			<TBUID>E25D3FDF-FDAF-ABE1-0343-C97322514BDA</TBUID>
+			<Name>Novell GroupWise Messenger</Name>
+			<Description></Description>
+			<Items>8300</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="35">
+			<TBUID>5AA5E7CE-5C89-60AD-05FB-4D87DC179888</TBUID>
+			<Name>Oracle Forms Server</Name>
+			<Description></Description>
+			<Items>8888,8889,9000</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="66">
+			<TBUID>E52FC7CD-B01B-583F-CBFF-88A2101E1348</TBUID>
+			<Name>Oracle HTTP Services</Name>
+			<Description></Description>
+			<Items>80,1158,6000-6199,7001,7002,7200,7501,7770,7777,7778,7779,7780,8007,8080,8004,9500,9502,9700,19000</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="73">
+			<TBUID>F81DE6D6-0CF1-13DD-52EA-955E3CDD9CB9</TBUID>
+			<Name>Oracle Report Server</Name>
+			<Description></Description>
+			<Items>7777-7779</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="118">
+			<TBUID>4F673227-5C7D-DAD0-B2CB-F56D845B5E6D</TBUID>
+			<Name>Oracle SQL Server</Name>
+			<Description></Description>
+			<Items>1521,5560</Items>
+			<Version>3</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="1">
+			<TBUID>F1F042A7-6AB3-49BC-8EE1-8306C7927F53</TBUID>
+			<Name>Oracle XDB FTP</Name>
+			<Description>Oracle XDB FTP</Description>
+			<Items>2100</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="11">
+			<TBUID>BEF88C05-34E7-E77D-6574-564C95FD5C25</TBUID>
+			<Name>PeerCast</Name>
+			<Description></Description>
+			<Items>7144,7145</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="109">
+			<TBUID>BADA9DF2-2A2C-C278-617C-7B3C239698F4</TBUID>
+			<Name>POP3</Name>
+			<Description></Description>
+			<Items>110</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="23">
+			<TBUID>CD0441E6-CAF5-5066-4D91-E41EE8367AD0</TBUID>
+			<Name>PostgreSQL</Name>
+			<Description></Description>
+			<Items>5432</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="43">
+			<TBUID>280234C7-B26D-0C54-1504-E52D383571EE</TBUID>
+			<Name>PPTP</Name>
+			<Description></Description>
+			<Items>1723</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="50">
+			<TBUID>D073DFD8-67C5-BE58-F333-9D762699274D</TBUID>
+			<Name>RealServer</Name>
+			<Description></Description>
+			<Items>554,80</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="76">
+			<TBUID>21108FBB-6AE3-6A52-A655-FD39B0AD2EEC</TBUID>
+			<Name>Remote Desktop</Name>
+			<Description>Ports for accessing a machine using remote desktop/terminal services</Description>
+			<Items>3389 # Remote Desktop</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="90">
+			<TBUID>94144826-4CF5-01CF-7743-EB1CB24607D8</TBUID>
+			<Name>Remote Domain VPN Tunnel Ports</Name>
+			<Description></Description>
+			<Items></Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="83">
+			<TBUID>FE2DAD06-AD5F-DEA0-5BAA-CB71A13914CD</TBUID>
+			<Name>Remote Login Application and uncommon ports</Name>
+			<Description>Monitor the ports for Remote Applications and all ports except common application ports</Description>
+			<Items>1-19,22-24,26-52,54-68,70-87,89-110,112-114,116-122,124-134,136,140-142,144-155,157-160,163-169,171-444,446-513,515-529,531-539,541-545,548-553,555,557-592,594-600,602-622,624,626-630,632-635,637-690,692,693,696-748,754-759,761-807,809-859,861-872,874-952,954-65535</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="57">
+			<TBUID>FBD48FE0-92AD-89F3-4892-80AD2384FB9B</TBUID>
+			<Name>RPC</Name>
+			<Description></Description>
+			<Items>111</Items>
+			<Version>4</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="21">
+			<TBUID>78CFDD71-002A-734D-65B4-88E62AB9EF45</TBUID>
+			<Name>RSync</Name>
+			<Description></Description>
+			<Items>873</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="51">
+			<TBUID>99B1CE39-D526-E10E-C14C-A6BBE4323A31</TBUID>
+			<Name>Security Event Management eIQnetworks</Name>
+			<Description></Description>
+			<Items>10616</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="67">
+			<TBUID>1791AAD5-B409-A166-FBDB-92D72C559D68</TBUID>
+			<Name>Shellcode Port List</Name>
+			<Description></Description>
+			<Items>20,21,23,25,42,53,69,80,89,105,110,111,119,135,137,138,139,143,161,389,400,445,515,548,554,617,689,800,801,873,1000,1025,1234,1394,1433-1434,1521,1524,1581,1723,1761,1900,2000,2049,2100,2103,2105,2107,2301,2380,2869,2967,3050,3104,3128,3277,3443,3465,3628,3632,3690,4105,4123,4444,5051,5060,5061,5093,5168,5432,5555,5900,6050,6070,6071,6101,6106,6112,6200,6502,6503,7144,7205,7787,8000,8008,8028,8080,8081,8090,8300,8484,9080,9833,9999-10000,10202-10203,10616,10628,11000,13701,13722,13782,20031,41523-41524,44334,47991,53000,65535</Items>
+			<Version>8</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="3">
+			<TBUID>5CFA9E58-66CD-A31A-15B7-24D6798378C5</TBUID>
+			<Name>SHOUTCast</Name>
+			<Description></Description>
+			<Items>8000</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="4">
+			<TBUID>5129DC4C-2332-51EE-D760-84308760913C</TBUID>
+			<Name>SIP</Name>
+			<Description></Description>
+			<Items>5060,5061</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="18">
+			<TBUID>061F23E7-1CDB-F02A-0340-E41DD8C52211</TBUID>
+			<Name>SMB</Name>
+			<Description></Description>
+			<Items>139</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="114">
+			<TBUID>4A46BE5E-AE30-F61F-51E5-4A2C14572933</TBUID>
+			<Name>SMTP</Name>
+			<Description></Description>
+			<Items>25</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="56">
+			<TBUID>460B7344-8DD4-B5A3-97B6-29A1626F93C9</TBUID>
+			<Name>SNMP Server</Name>
+			<Description></Description>
+			<Items>161,162</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="52">
+			<TBUID>435DF901-6DB2-F8ED-7125-694F22016BD7</TBUID>
+			<Name>Solaris RPC</Name>
+			<Description></Description>
+			<Items>32771,32772,32773,32776,32777,32779,32781,32785,32786</Items>
+			<Version>3</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="30">
+			<TBUID>53F323A7-ECC8-7522-DD9A-1296D0856DF8</TBUID>
+			<Name>spamd</Name>
+			<Description></Description>
+			<Items>783</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="53">
+			<TBUID>3D78E79A-C1F1-9DDE-1EDF-05FEB4F02D2C</TBUID>
+			<Name>Spam Firewall Barracuda</Name>
+			<Description></Description>
+			<Items>8000</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="32">
+			<TBUID>342FB39D-5D5B-4A8C-46B6-978DAB762316</TBUID>
+			<Name>Squid SNMP</Name>
+			<Description></Description>
+			<Items>3401</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="37">
+			<TBUID>ECACA35C-0F7E-A8BD-BD56-EA2E8431EF48</TBUID>
+			<Name>Squid Web Server</Name>
+			<Description></Description>
+			<Items>3128,80</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="91">
+			<TBUID>67DAD9A4-28F4-253B-47E8-05E80ABCAB01</TBUID>
+			<Name>SSH</Name>
+			<Description>Ports for accessing a machine using SSH</Description>
+			<Items>22</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="38">
+			<TBUID>862217D4-465F-C27F-020B-C020357F92D4</TBUID>
+			<Name>SSL</Name>
+			<Description></Description>
+			<Items>443</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="29">
+			<TBUID>6B5FE3DF-5901-D6CF-FB29-DEBE78EB0074</TBUID>
+			<Name>Subversion</Name>
+			<Description></Description>
+			<Items>3690</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="87">
+			<TBUID>73544341-08D9-2610-FB3F-B57677CCCE38</TBUID>
+			<Name>Suspicious Ransomware Activity</Name>
+			<Description></Description>
+			<Items>1-138,140-444,446-65535</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="31">
+			<TBUID>6A807477-3EF3-DCBE-48D5-E27221AB845D</TBUID>
+			<Name>SWAT</Name>
+			<Description></Description>
+			<Items>901</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="14">
+			<TBUID>A74561D5-250F-4C40-39AA-480618A5C089</TBUID>
+			<Name>Sybase EAServer</Name>
+			<Description></Description>
+			<Items>8080</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="63">
+			<TBUID>725D2A89-1D14-EDAA-8D04-89E9CC3C0860</TBUID>
+			<Name>Symantec VERITAS Storage Foundation Administrator Service</Name>
+			<Description></Description>
+			<Items>3207</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="16">
+			<TBUID>950FB9AB-0FC1-50EA-B5CD-00E5E422DBE0</TBUID>
+			<Name>Telnet</Name>
+			<Description></Description>
+			<Items>23</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="69">
+			<TBUID>2BD19AF6-3979-4780-D016-36697B5945DE</TBUID>
+			<Name>TFTP</Name>
+			<Description></Description>
+			<Items>69</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="54">
+			<TBUID>0DA1DD95-058D-B8E9-D25C-0CD8B1040B6B</TBUID>
+			<Name>TFTP Server FutureSoft</Name>
+			<Description></Description>
+			<Items>69</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="72">
+			<TBUID>DB961850-37F0-C629-5B13-DC79BB1444E4</TBUID>
+			<Name>Trend Micro Core Protection for Virtual Machines</Name>
+			<Description></Description>
+			<Items>1000,5000,5005</Items>
+			<Version>0</Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="86">
+			<TBUID>2364938B-C2CB-603D-796F-81464BAC1DBE</TBUID>
+			<Name>Trend Micro EarthAgent</Name>
+			<Description></Description>
+			<Items>5005</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="70">
+			<TBUID>4349B11A-ECA5-C21D-ADB5-895942DE2FB4</TBUID>
+			<Name>Trend Micro Server Protect</Name>
+			<Description></Description>
+			<Items>5168,9921,3628,1921,5005-5014,3000-3009</Items>
+			<Version>0</Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="42">
+			<TBUID>BEDABF96-3243-46BB-347A-6CBCCC5BD4BA</TBUID>
+			<Name>UltraVNC</Name>
+			<Description></Description>
+			<Items>5800,5900</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="108">
+			<TBUID>2FD92AF7-6E70-788D-96EF-A88E5FB0C36E</TBUID>
+			<Name>Veritas</Name>
+			<Description></Description>
+			<Items>13722,10000,13701,6101,13782</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="88">
+			<TBUID>881C5273-98C0-5232-319A-B8A5DA68CDB0</TBUID>
+			<Name>VMware vCenter Server</Name>
+			<Description>Ports used by VMware vCenter Server
+
+See the following for more details:
+http://kb.vmware.com/selfservice/microsites/search.do?cmd=displayKC&amp;externalId=1012382</Description>
+			<Items>   80 # VirtualCenter client communication (redirects to 443)
+  443 # VirtualCenter client communication
+  902 # ESX Server communication
+ 8443 # VMware SDK
+   25 # Smtp Server
+   53 # DNS Server
+  161 # SNMP Server 
+  162 # SNMP
+  389 # LDAP
+  445 # DPM VI Web
+  623 # DPM with IPMI
+  636 # Linked mode connectivity
+  903 # VI vSphere Client to VM Console
+ 1024 # Bi-directional RPC
+ 1433 # For vCenter Microsoft SQL Server Database
+ 1521 # For vCenter Oracle Database
+ 5989 # vCenter to ESX
+ 6500 # ESXi
+ 6501 # ESXi
+ 6502 # ESXi
+ 8080 # VMware vCenter 4 Management Web Services - HTTP
+ 8095 # Site Recovery Manager
+ 8096 # Site Recovery Manager
+ 9087 # Update Manager Server
+ 9443 # Client PC
+10109 # vCenter Server
+10111 # vCenter Server
+10443 # Client PC
+18443 # View Connection Server/View Manager
+27000 # Licensing via FlexLM 
+27010 # Licensing via FlexLM
+31000 # SPS Server
+52267 # vCenter Server Heartbeat Console
+57348 # vCenter Server Primary Server
+60099 # This port is for internal communication between vCenter Server and its solutions</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="89">
+			<TBUID>2057B5FC-07AC-5032-113D-E24A1D316DAA</TBUID>
+			<Name>VPN Tunnel Ports</Name>
+			<Description></Description>
+			<Items>443      # https,500      # isakmp,1723    # pptp</Items>
+			<Version></Version>
+			<UserEdited>true</UserEdited>
+		</PortList>
+		<PortList id="55">
+			<TBUID>1409E353-03C8-9EA6-305C-5F58AAB8EBE6</TBUID>
+			<Name>WCCP Squid</Name>
+			<Description></Description>
+			<Items>2048</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="7">
+			<TBUID>5805497B-6FB8-F06F-294F-31592AEA6608</TBUID>
+			<Name>Web Client Port</Name>
+			<Description></Description>
+			<Items>8080,80</Items>
+			<Version>3</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="81">
+			<TBUID>96C8E54B-95B3-8D01-208D-6477B2C271E7</TBUID>
+			<Name>Web Server Common</Name>
+			<Description></Description>
+			<Items>80,81,82,83,383,443,444,631,808,1000,1099,1128,1158,1220,1270,1337,1408,1581,1801,1812,1900,2301,2381,3000,3037,3128,3200,3201,3443,3612,3900,4119,4242,4343,4723,4848,5050,5053,5080,5357,5358,5443,5466,5601,5701,5814,5984,5985,5986,6405,6443,6565,6988,6000-6199,7000,7001,7002,7048,7070,7080,7100,7101,7200,7272,7501,7510,7770,7777,7778,7779,7780,7990,8000,8001,8004,8007,8008,8014,8015,8020,8021,8028,8029,8030,8040,8041,8043,8060,8088,8090,8093,8094,8095,8111,8161,8181,8282,8300,8443,8445,8500,8558,8700,8787,8800,8848,8880,8080-8083,8888,8900,8983,8989,9000,9001,9002,9003,9060,9080,9090,9191,9192,9200,9251,9292,9495,9500,9700,9710,9832,9850,9998,10000,10001,10051,10053,12345,14942,14943,15050,19000,19300,21009,21191,24880,26964,32000,41080,41443,46485,50000,50013,52312,4443,15671,15672,52311,8383,9502,2376,2375,50001,32400,2030,2031,2086,2087,43958,4040,17777,17778,18080,7071,9071,8993,9763,9443,8643,2082,2095,8153,9091,32843,32844,2083,58725,8061,18083,18084</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="24">
+			<TBUID>07857BC8-2F20-A028-D159-E47AF67CEE8D</TBUID>
+			<Name>Web Server Domino</Name>
+			<Description></Description>
+			<Items>80</Items>
+			<Version>2</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="100">
+			<TBUID>01162A3C-8ED6-2498-3C8F-177D0A9B958B</TBUID>
+			<Name>Windows File Sharing</Name>
+			<Description>Ports used for Microsoft Windows file sharing</Description>
+			<Items>137,138,139,445</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="110">
+			<TBUID>A719AE82-9601-0B75-CF10-58FC170DD75D</TBUID>
+			<Name>WINS</Name>
+			<Description></Description>
+			<Items>1512</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="115">
+			<TBUID>777B9389-000E-CF95-8167-800328DECAA1</TBUID>
+			<Name>WINS Registration</Name>
+			<Description></Description>
+			<Items>137</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="111">
+			<TBUID>235A8C3C-A633-D24C-04BB-399748AA7E2D</TBUID>
+			<Name>WINS Replication</Name>
+			<Description></Description>
+			<Items>42</Items>
+			<Version></Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+		<PortList id="61">
+			<TBUID>1779C468-1494-6213-2AF8-64818C8B29C0</TBUID>
+			<Name>X.Org Font Server</Name>
+			<Description></Description>
+			<Items>7100</Items>
+			<Version>1</Version>
+			<UserEdited>false</UserEdited>
+		</PortList>
+	</PortLists>
+</Export>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Export type="IPList" date="February 3, 2025 16:06" version="50.0.3415">
+	<IPLists>
+		<IPList id="4">
+			<TBUID>B37AF0F5-47F2-35E8-4780-734B51E97484</TBUID>
+			<Name>Corporate Network IPs</Name>
+			<Description>IPs  allowed while remotely connected to domain</Description>
+			<Items>10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,224.0.0.0/8           #multicast,255.255.255.255  #broadcast</Items>
+		</IPList>
+		<IPList id="2">
+			<TBUID>E5B9BBA9-BB81-80DC-2788-E4985654D32C</TBUID>
+			<Name>Domain Controller(s)</Name>
+			<Description>A list of domain controllers from which clients should accept traffic</Description>
+			<Items>10.0.0.0/8,172.16.0.0/12,192.168.0.0/16</Items>
+		</IPList>
+		<IPList id="5">
+			<TBUID>7E014868-29C7-1A0E-6861-91258C368471</TBUID>
+			<Name>Ignore Reconnaissance</Name>
+			<Description></Description>
+			<Items>127.0.0.1</Items>
+		</IPList>
+		<IPList id="1">
+			<TBUID>0918CE2A-FA83-2442-34A3-4F3CB95A0F7D</TBUID>
+			<Name>Ingress Filters</Name>
+			<Description>Reserved IP Addresses</Description>
+			<Items>0.0.0.0/255.0.0.0,10.0.0.0/255.0.0.0,127.0.0.0/255.0.0.0,169.254.0.0/255.255.0.0,172.16.0.0/255.240.0.0,192.0.2.0/255.255.255.0,192.168.0.0/255.255.0.0,224.0.0.0/240.0.0.0,248.0.0.0/248.0.0.0,255.255.255.255/255.255.255.255</Items>
+		</IPList>
+		<IPList id="6">
+			<TBUID>4A80E8AD-CAD8-4686-91A0-33407493B939</TBUID>
+			<Name>Network Broadcast</Name>
+			<Description></Description>
+			<Items>255.255.255.255/255.255.255.255</Items>
+		</IPList>
+		<IPList id="3">
+			<TBUID>6D5592D7-CB25-3D6D-1894-89F9A11FF4D0</TBUID>
+			<Name>Off Domain IPs</Name>
+			<Description>Private IP addresses allowed while off domain for non internet connectivity</Description>
+			<Items>10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,224.0.0.0/8           #multicast,255.255.255.255 #broadcast</Items>
+		</IPList>
+		<IPList id="7">
+			<TBUID>2735389B-AB6D-0A8F-599D-C386B3357034</TBUID>
+			<Name>VPN Tunnel IPs</Name>
+			<Description></Description>
+			<Items>127.0.0.1     # vpn server</Items>
+		</IPList>
+	</IPLists>
+</Export>
